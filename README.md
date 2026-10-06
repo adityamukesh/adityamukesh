@@ -91,6 +91,35 @@
 
 <br/>
 
+<!--- COMPETITIVE PROGRAMMING --->
+<img src="assets/section-competitive.svg" alt="Competitive Programming" width="830"/>
+
+<br/>
+
+<div align="center">
+<img src="assets/competitive.svg" alt="Competitive Programming Stats" width="830"/>
+</div>
+
+<br/>
+
+<div align="center">
+
+[![Codeforces](https://img.shields.io/badge/Codeforces-adityamukesh111-%231F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/adityamukesh111)
+&nbsp;
+[![LeetCode](https://img.shields.io/badge/LeetCode-aditya__mukesh123-%23FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/aditya_mukesh123/)
+&nbsp;
+[![CodeChef](https://img.shields.io/badge/CodeChef-coder__baby12-%235B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/coder_baby12)
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="assets/divider.svg" alt="" width="830"/>
+</div>
+
+<br/>
+
 <!--- CONTRIBUTION & GITHUB ACTIVITY --->
 <img src="assets/section-activity.svg" alt="Contribution Activity" width="830"/>
 
@@ -131,13 +160,15 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adityamukesh)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aditya_Mukesh-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-mukesh-13a804377/)
 &nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adityamukesh)
+[![LeetCode](https://img.shields.io/badge/LeetCode-aditya__mukesh123-%23FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/aditya_mukesh123/)
 &nbsp;
-[![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/adityamukesh)
+[![Codeforces](https://img.shields.io/badge/Codeforces-adityamukesh111-%231F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/adityamukesh111)
 &nbsp;
-[![Repositories](https://img.shields.io/badge/All_Repos-28_Public-blue?style=for-the-badge&logo=git)](https://github.com/adityamukesh?tab=repositories)
+[![CodeChef](https://img.shields.io/badge/CodeChef-coder__baby12-%235B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/coder_baby12)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-adityamukesh-%23121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adityamukesh)
 
 </div>
 
