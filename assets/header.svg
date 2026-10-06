@@ -58,14 +58,14 @@
     <!-- typewriter clip 1 -->
     <clipPath id="tw1">
       <rect x="40" y="126" height="28" width="0">
-        <animate attributeName="width" values="0;580;580;0;0" keyTimes="0;0.38;0.48;0.50;1" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="width" values="0;475;475;0;0" keyTimes="0;0.38;0.48;0.50;1" dur="10s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
 
     <!-- typewriter clip 2 -->
     <clipPath id="tw2">
       <rect x="40" y="126" height="28" width="0">
-        <animate attributeName="width" values="0;0;600;600;0" keyTimes="0;0.52;0.88;0.97;1" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="width" values="0;0;420;420;0" keyTimes="0;0.52;0.88;0.97;1" dur="10s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
 
@@ -138,18 +138,18 @@
 
   <!-- typewriter line 1 -->
   <g clip-path="url(#tw1)">
-    <text x="40" y="148" class="typing">Full-Stack Engineer · Web Systems · Algorithms &amp; Problem Solving</text>
+    <text x="40" y="148" class="typing">Software Developer · Full-Stack Engineer · Problem Solver</text>
   </g>
 
   <!-- typewriter line 2 -->
   <g clip-path="url(#tw2)">
-    <text x="40" y="148" class="typing typing2">React · Node.js · Express · TypeScript · Open Source Contributor</text>
+    <text x="40" y="148" class="typing typing2">React · Node.js · Express · TypeScript · Open Source</text>
   </g>
 
-  <!-- blinking cursor -->
+  <!-- blinking cursor (accurately calibrated to line length) -->
   <line stroke="#58a6ff" stroke-width="2" stroke-linecap="round" class="blink">
-    <animate attributeName="x1" values="40;580;580;40;40;600;600;40;40" keyTimes="0;0.38;0.48;0.50;0.52;0.88;0.97;1;1" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="40;580;580;40;40;600;600;40;40" keyTimes="0;0.38;0.48;0.50;0.52;0.88;0.97;1;1" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="x1" values="40;515;515;40;40;460;460;40;40" keyTimes="0;0.38;0.48;0.50;0.52;0.88;0.97;1;1" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="40;515;515;40;40;460;460;40;40" keyTimes="0;0.38;0.48;0.50;0.52;0.88;0.97;1;1" dur="10s" repeatCount="indefinite"/>
     <animate attributeName="y1" values="134;134;134;134;134;134;134;134;134" dur="10s" repeatCount="indefinite"/>
     <animate attributeName="y2" values="150;150;150;150;150;150;150;150;150" dur="10s" repeatCount="indefinite"/>
   </line>

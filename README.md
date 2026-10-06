@@ -80,6 +80,12 @@
 <br/>
 
 <div align="center">
+<img src="assets/philosophy.svg" alt="Engineering Philosophy & Architecture" width="830"/>
+</div>
+
+<br/>
+
+<div align="center">
 <img src="assets/divider.svg" alt="" width="830"/>
 </div>
 
