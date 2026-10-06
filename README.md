@@ -37,7 +37,7 @@
 </td>
 <td width="50%" valign="top" align="right">
 
-[![DSA Solutions](assets/card-dsa.svg)](https://github.com/adityamukesh?tab=repositories)
+[![DSA & Problem Solving](assets/card-dsa.svg)](https://github.com/adityamukesh/dsa--assignment)
 
 </td>
 </tr>
@@ -54,7 +54,7 @@
 </td>
 <td width="50%" valign="top" align="right">
 
-[![Web Applications](assets/card-webapps.svg)](https://github.com/adityamukesh?tab=repositories)
+[![FinTech App](assets/card-fintech.svg)](https://github.com/adityamukesh/fintech)
 
 </td>
 </tr>
@@ -131,7 +131,7 @@
 &nbsp;
 [![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/adityamukesh)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adityamukesh@example.com)
+[![Repositories](https://img.shields.io/badge/All_Repos-28_Public-blue?style=for-the-badge&logo=git)](https://github.com/adityamukesh?tab=repositories)
 
 </div>
 
