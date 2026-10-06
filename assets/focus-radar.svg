@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 134" width="830" height="134" fill="none">
+  <title>Current Focus &amp; Roadmap</title>
+  <defs>
+    <linearGradient id="bg-radar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111820"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <!-- laser line across top -->
+    <linearGradient id="laser-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#21262d" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#388bfd" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#79c0ff" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#388bfd" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#21262d" stop-opacity="0"/>
+      <animate attributeName="x1" values="-100%;100%" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;200%" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%,100%{ r: 3.5; opacity: 1; }
+      50%{ r: 5.5; opacity: 0.3; }
+    }
+    .pulse-dot {
+      animation: pulse 2.2s ease-in-out infinite;
+      transform-origin: 24px 22px;
+    }
+    .label {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 10px; font-weight: 600; letter-spacing: 1.8px; fill: #58a6ff;
+    }
+    .cell-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 13.5px; font-weight: 600; fill: #e6edf3;
+    }
+    .cell-desc {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 11.5px; font-weight: 400; fill: #7d8590;
+    }
+  </style>
+
+  <!-- Frame -->
+  <rect x="0.5" y="0.5" width="829" height="133" rx="10" fill="url(#bg-radar)" stroke="#21262d" stroke-width="1"/>
+  <line x1="12" y1="1" x2="818" y2="1" stroke="url(#laser-line)" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Header row inside card -->
+  <circle cx="24" cy="22" r="3.5" fill="#3fb950" class="pulse-dot"/>
+  <circle cx="24" cy="22" r="2" fill="#56d364"/>
+  <text x="36" y="25.5" class="label">CURRENT FOCUS &amp; ROADMAP</text>
+
+  <line x1="20" y1="38" x2="810" y2="38" stroke="#21262d" stroke-width="0.75"/>
+
+  <!-- 3 Clean Minimal Columns -->
+  <!-- Column 1 -->
+  <g transform="translate(24, 52)">
+    <text x="0" y="14" class="cell-title">ShopSphere Platform</text>
+    <text class="cell-desc">
+      <tspan x="0" y="32">Modern full-stack e-commerce architecture,</tspan>
+      <tspan x="0" y="48">REST APIs, state management · Active dev</tspan>
+    </text>
+  </g>
+
+  <!-- Vertical Divider 1 -->
+  <line x1="275" y1="46" x2="275" y2="118" stroke="#21262d" stroke-width="0.75"/>
+
+  <!-- Column 2 -->
+  <g transform="translate(295, 52)">
+    <text x="0" y="14" class="cell-title">Data Structures &amp; Algorithms</text>
+    <text class="cell-desc">
+      <tspan x="0" y="32">Graph algorithms, DP, sorting &amp; trees</tspan>
+      <tspan x="0" y="48">Analytical problem solving practice</tspan>
+    </text>
+  </g>
+
+  <!-- Vertical Divider 2 -->
+  <line x1="550" y1="46" x2="550" y2="118" stroke="#21262d" stroke-width="0.75"/>
+
+  <!-- Column 3 -->
+  <g transform="translate(570, 52)">
+    <text x="0" y="14" class="cell-title">Full-Stack &amp; Web Systems</text>
+    <text class="cell-desc">
+      <tspan x="0" y="32">Performant React &amp; Node.js applications,</tspan>
+      <tspan x="0" y="48">modern frontend styling &amp; microservices</tspan>
+    </text>
+  </g>
+</svg>
