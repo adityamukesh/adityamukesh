@@ -126,6 +126,14 @@
 <br/>
 
 <div align="center">
+<a href="https://github.com/adityamukesh">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="830"/>
+</a>
+</div>
+
+<br/>
+
+<div align="center">
 
 <a href="https://github.com/adityamukesh">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=adityamukesh&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=388bfd&text_color=7d8590&ring_color=388bfd&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
