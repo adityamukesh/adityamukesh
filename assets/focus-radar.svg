@@ -79,10 +79,10 @@
 
   <!-- Column 3 -->
   <g transform="translate(570, 52)">
-    <text x="0" y="14" class="cell-title">Full-Stack &amp; Web Systems</text>
+    <text x="0" y="14" class="cell-title">Open Source &amp; Core Systems</text>
     <text class="cell-desc">
-      <tspan x="0" y="32">Performant React &amp; Node.js applications,</tspan>
-      <tspan x="0" y="48">modern frontend styling &amp; microservices</tspan>
+      <tspan x="0" y="32">Valkey Core Contributor (PR #4843 Merged),</tspan>
+      <tspan x="0" y="48">C/C++, high-performance distributed systems</tspan>
     </text>
   </g>
 </svg>
