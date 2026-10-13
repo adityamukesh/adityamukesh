@@ -48,7 +48,7 @@
     .merged-badge { animation: badge-glow 2.5s ease-in-out infinite; }
     .badge-mono {
       font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
-      font-size: 10px; font-weight: 700; letter-spacing: 1.2px;
+      font-size: 9.5px; font-weight: 700; letter-spacing: 1.2px;
     }
     .title-text {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -71,12 +71,12 @@
   <line x1="14" y1="1" x2="816" y2="1" stroke="url(#laser-vk)" stroke-width="1.8" stroke-linecap="round"/>
 
   <!-- Top Bar -->
-  <!-- Left: Target Repository -->
+  <!-- Left: Target Repository & Linux Foundation Ownership -->
   <g transform="translate(24, 18)">
     <circle cx="5" cy="10" r="3.5" fill="#a371f7" class="p-dot"/>
     <circle cx="5" cy="10" r="1.8" fill="#ffffff"/>
-    <rect x="18" y="0" width="235" height="20" rx="10" fill="rgba(163,113,247,0.12)" stroke="rgba(163,113,247,0.4)" stroke-width="0.8"/>
-    <text x="28" y="14" class="badge-mono" fill="#d2a8ff">VALKEY-IO / VALKEY · CORE ENGINE</text>
+    <rect x="18" y="0" width="350" height="20" rx="10" fill="rgba(163,113,247,0.12)" stroke="rgba(163,113,247,0.4)" stroke-width="0.8"/>
+    <text x="28" y="14" class="badge-mono" fill="#d2a8ff">VALKEY-IO / VALKEY · LINUX FOUNDATION PROJECT</text>
   </g>
 
   <!-- Right: UNMISSABLE MERGED BADGE -->
@@ -94,8 +94,8 @@
 
   <!-- Explanation / Impact -->
   <text class="desc-text">
-    <tspan x="24" y="99">Successfully merged into <tspan fill="#d2a8ff" font-weight="600">valkey-io/valkey:unstable</tspan> — Fixed protocol reply logic in core engine when an entry</tspan>
-    <tspan x="24" y="117">is acknowledged in the consumer group PEL but already deleted from the stream (Fixes Issue #4840).</tspan>
+    <tspan x="24" y="99">Successfully merged into <tspan fill="#d2a8ff" font-weight="600">valkey-io/valkey:unstable</tspan> — Hosted &amp; tracked under <tspan fill="#79c0ff" font-weight="600">The Linux Foundation</tspan> governance.</tspan>
+    <tspan x="24" y="117">Fixed protocol reply logic in core engine when an entry is acknowledged in PEL but stream item is gone (Fixes #4840).</tspan>
   </text>
 
   <!-- Separator Line -->
@@ -104,24 +104,28 @@
   <!-- Bottom Row: Tech Stack & Verification -->
   <g transform="translate(24, 151)">
     <!-- Status Pill -->
-    <rect x="0" y="0" width="92" height="22" rx="11" fill="rgba(137,87,229,0.2)" stroke="#8957e5" stroke-width="1"/>
-    <text x="46" y="14.5" text-anchor="middle" class="chip-text" fill="#d2a8ff">✓ MERGED</text>
+    <rect x="0" y="0" width="82" height="22" rx="11" fill="rgba(137,87,229,0.2)" stroke="#8957e5" stroke-width="1"/>
+    <text x="41" y="14.5" text-anchor="middle" class="chip-text" fill="#d2a8ff">✓ MERGED</text>
+
+    <!-- Linux Foundation Chip -->
+    <rect x="90" y="0" width="128" height="22" rx="11" fill="rgba(56,139,253,0.15)" stroke="rgba(56,139,253,0.35)" stroke-width="1"/>
+    <text x="154" y="14.5" text-anchor="middle" class="chip-text" fill="#79c0ff">Linux Foundation</text>
 
     <!-- Module Scope -->
-    <rect x="100" y="0" width="146" height="22" rx="11" fill="rgba(56,139,253,0.12)" stroke="rgba(56,139,253,0.3)" stroke-width="1"/>
-    <text x="173" y="14.5" text-anchor="middle" class="chip-text" fill="#58a6ff">C · Streams (t_stream.c)</text>
+    <rect x="226" y="0" width="145" height="22" rx="11" fill="rgba(163,113,247,0.12)" stroke="rgba(163,113,247,0.3)" stroke-width="1"/>
+    <text x="298.5" y="14.5" text-anchor="middle" class="chip-text" fill="#d2a8ff">C · Streams (t_stream.c)</text>
 
     <!-- Command schema -->
-    <rect x="254" y="0" width="105" height="22" rx="11" fill="rgba(63,185,80,0.12)" stroke="rgba(63,185,80,0.3)" stroke-width="1"/>
-    <text x="306.5" y="14.5" text-anchor="middle" class="chip-text" fill="#3fb950">xackdel.json</text>
+    <rect x="379" y="0" width="95" height="22" rx="11" fill="rgba(63,185,80,0.12)" stroke="rgba(63,185,80,0.3)" stroke-width="1"/>
+    <text x="426.5" y="14.5" text-anchor="middle" class="chip-text" fill="#3fb950">xackdel.json</text>
 
     <!-- Tests -->
-    <rect x="367" y="0" width="118" height="22" rx="11" fill="rgba(240,136,62,0.12)" stroke="rgba(240,136,62,0.3)" stroke-width="1"/>
-    <text x="426" y="14.5" text-anchor="middle" class="chip-text" fill="#ffa657">TCL Test Suite</text>
+    <rect x="482" y="0" width="85" height="22" rx="11" fill="rgba(240,136,62,0.12)" stroke="rgba(240,136,62,0.3)" stroke-width="1"/>
+    <text x="524.5" y="14.5" text-anchor="middle" class="chip-text" fill="#ffa657">TCL Tests</text>
 
     <!-- Milestone -->
-    <rect x="493" y="0" width="95" height="22" rx="11" fill="rgba(163,113,247,0.12)" stroke="rgba(163,113,247,0.3)" stroke-width="1"/>
-    <text x="540.5" y="14.5" text-anchor="middle" class="chip-text" fill="#a371f7">Valkey 9.2</text>
+    <rect x="575" y="0" width="85" height="22" rx="11" fill="rgba(163,113,247,0.12)" stroke="rgba(163,113,247,0.3)" stroke-width="1"/>
+    <text x="617.5" y="14.5" text-anchor="middle" class="chip-text" fill="#a371f7">Valkey 9.2</text>
 
     <!-- Maintainer note -->
     <text x="782" y="15" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="#3fb950">● Merged by Maintainers</text>

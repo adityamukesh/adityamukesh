@@ -47,7 +47,7 @@
 </thead>
 <tbody>
   <tr>
-    <td valign="top"><b><a href="https://github.com/valkey-io/valkey">valkey-io/valkey</a></b><br/><sub>Linux Foundation · Core Engine</sub></td>
+    <td valign="top"><b><a href="https://github.com/valkey-io/valkey">valkey-io/valkey</a></b><br/><sub>Hosted &amp; Tracked by The Linux Foundation · Core Engine</sub></td>
     <td valign="top"><a href="https://github.com/valkey-io/valkey/pull/4843"><b>#4843</b> Fix XACKDEL KEEPREF reply for acked entry whose stream item is gone</a><br/><sub>C logic in <code>src/t_stream.c</code>, schema in <code>xackdel.json</code>, TCL test suite</sub></td>
     <td valign="top" align="center"><a href="https://github.com/valkey-io/valkey/pull/4843"><img src="https://img.shields.io/badge/MERGED-%238957e5?style=for-the-badge&logo=git&logoColor=white" alt="Merged"/></a></td>
     <td valign="top">✅ <b>Approved &amp; Merged</b> by core maintainer <a href="https://github.com/zuiderkwast">@zuiderkwast</a>; reviewed by <a href="https://github.com/nickiaq">@nickiaq</a></td>
