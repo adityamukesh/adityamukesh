@@ -26,52 +26,30 @@
 <!--- OPEN SOURCE CONTRIBUTIONS --->
 <img src="assets/section-contributions.svg" alt="Open Source Contributions" width="830"/>
 
-<br/>
+<p align="center"><b>6 featured merges</b> · 4 open-source projects</p>
 
+<!-- Individual linked images wrap to one column on narrow screens. -->
 <div align="center">
-<a href="https://github.com/valkey-io/valkey/pull/4843">
-  <img src="assets/card-valkey.svg" alt="Valkey Core Contributor - Merged PR #4843" width="830"/>
-</a>
+<a href="https://github.com/valkey-io/valkey/pull/4843"><img src="assets/card-valkey.svg" alt="valkey-io/valkey #4843 — Correct XACKDEL KEEPREF replies — Merged" width="400"/></a>
+<a href="https://github.com/wboayue/rust-ibapi/pull/1011"><img src="assets/card-rust-ibapi.svg" alt="wboayue/rust-ibapi #1011 — Simplify the historical-data encoder — Merged" width="400"/></a>
+<a href="https://github.com/ciaren-labs/Ciaren/pull/259"><img src="assets/card-ciaren.svg" alt="ciaren-labs/Ciaren #259 — Filter paid orders with two conditions — Merged" width="400"/></a>
+<a href="https://github.com/pacocartones/free-llm-api-hub/pull/398"><img src="assets/card-zerogpu.svg" alt="pacocartones/free-llm-api-hub #398 — Hugging Face Spaces ZeroGPU — Merged" width="400"/></a>
+<a href="https://github.com/pacocartones/free-llm-api-hub/pull/386"><img src="assets/card-poolside.svg" alt="pacocartones/free-llm-api-hub #386 — Document Poolside’s data policy — Merged" width="400"/></a>
+<a href="https://github.com/pacocartones/free-llm-api-hub/pull/354"><img src="assets/card-hunyuan.svg" alt="pacocartones/free-llm-api-hub #354 — Re-verify Tencent Hunyuan — Merged" width="400"/></a>
 </div>
 
-<br/>
+<p align="center"><sub><a href="https://github.com/search?q=is%3Apr+is%3Amerged+author%3Aadityamukesh&amp;type=pullrequests">View all merged pull requests ↗</a></sub></p>
 
-<table width="100%" cellspacing="0" cellpadding="8" border="0">
-<thead>
-  <tr>
-    <th align="left">Repository</th>
-    <th align="left">Pull Request &amp; Scope</th>
-    <th align="center">Status</th>
-    <th align="left">Maintainer Engagement &amp; Feedback</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td valign="top"><b><a href="https://github.com/valkey-io/valkey">valkey-io/valkey</a></b><br/><sub>Hosted &amp; Tracked by The Linux Foundation · Core Engine</sub></td>
-    <td valign="top"><a href="https://github.com/valkey-io/valkey/pull/4843"><b>#4843</b> Fix XACKDEL KEEPREF reply for acked entry whose stream item is gone</a><br/><sub>C logic in <code>src/t_stream.c</code>, schema in <code>xackdel.json</code>, TCL test suite</sub></td>
-    <td valign="top" align="center"><a href="https://github.com/valkey-io/valkey/pull/4843"><img src="https://img.shields.io/badge/MERGED-%238957e5?style=for-the-badge&logo=git&logoColor=white" alt="Merged"/></a></td>
-    <td valign="top">✅ <b>Approved &amp; Merged</b> by core maintainer <a href="https://github.com/zuiderkwast">@zuiderkwast</a>; reviewed by <a href="https://github.com/nickiaq">@nickiaq</a></td>
-  </tr>
-  <tr>
-    <td valign="top"><b><a href="https://github.com/kiinshuk/kinshow">kiinshuk/kinshow</a></b><br/><sub>Streaming UI &amp; Components</sub></td>
-    <td valign="top"><a href="https://github.com/kiinshuk/kinshow/pull/433"><b>#433</b> fix(design): unify button variants into single system</a><br/><sub>Standardized button architecture, sharp aesthetics, cross-device testing</sub></td>
-    <td valign="top" align="center"><a href="https://github.com/kiinshuk/kinshow/pull/433"><img src="https://img.shields.io/badge/IN_REVIEW-%23d29922?style=for-the-badge&logo=github&logoColor=white" alt="In Review"/></a></td>
-    <td valign="top">⚡ <b>Active Review</b> · Local preview &amp; Vercel deployment pipeline passed</td>
-  </tr>
-  <tr>
-    <td valign="top"><b><a href="https://github.com/SahilKumar75/Sentri">SahilKumar75/Sentri</a></b><br/><sub>Open Source Project</sub></td>
-    <td valign="top"><a href="https://github.com/SahilKumar75/Sentri/pull/162"><b>#162</b> docs(repo): add repository architecture map for contributors</a><br/><sub>Structural architecture map, developer workflows, and module guides</sub></td>
-    <td valign="top" align="center"><a href="https://github.com/SahilKumar75/Sentri/pull/162"><img src="https://img.shields.io/badge/ACTIVE-%23238636?style=for-the-badge&logo=github&logoColor=white" alt="Active"/></a></td>
-    <td valign="top">💬 <b>Positive Discussion</b> · Contributor onboarding roadmap review</td>
-  </tr>
-  <tr>
-    <td valign="top"><b><a href="https://github.com/JabRef/jabref">JabRef/jabref</a></b><br/><sub>Open Source Java Desktop App</sub></td>
-    <td valign="top"><a href="https://github.com/JabRef/jabref/pull/17441"><b>#17441</b> Preserve syntax highlighting when copying BibTeX in Source tab (#17392)</a><br/><sub>Java / JavaFX clipboard and syntax rendering fix</sub></td>
-    <td valign="top" align="center"><a href="https://github.com/JabRef/jabref/pull/17441"><img src="https://img.shields.io/badge/ACTIVE_PR-%231f6feb?style=for-the-badge&logo=github&logoColor=white" alt="Active PR"/></a></td>
-    <td valign="top">🔍 Automated CI pipeline &amp; maintainer test validation in progress</td>
-  </tr>
-</tbody>
-</table>
+<details>
+<summary><b>More contributions · open pull requests</b></summary>
+
+| Project | Contribution |
+| :--- | :--- |
+| **Kinshow** | [#433 · Unify button variants](https://github.com/kiinshuk/kinshow/pull/433) |
+| **Sentri** | [#162 · Contributor architecture map](https://github.com/SahilKumar75/Sentri/pull/162) |
+| **JabRef** | [#17441 · Preserve BibTeX syntax highlighting](https://github.com/JabRef/jabref/pull/17441) |
+
+</details>
 
 <br/>
 
