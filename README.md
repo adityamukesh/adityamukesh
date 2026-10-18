@@ -30,7 +30,7 @@
 
 <!-- Individual linked images wrap to one column on narrow screens. -->
 <div align="center">
-<a href="https://github.com/valkey-io/valkey/pull/4843"><img src="assets/card-valkey.svg" alt="valkey-io/valkey #4843 — Correct XACKDEL KEEPREF replies — Merged" width="400"/></a>
+<a href="https://github.com/valkey-io/valkey/pull/4843"><img src="assets/card-valkey-merged.svg" alt="valkey-io/valkey #4843 — Correct XACKDEL KEEPREF replies — Merged" width="400"/></a>
 <a href="https://github.com/wboayue/rust-ibapi/pull/1011"><img src="assets/card-rust-ibapi.svg" alt="wboayue/rust-ibapi #1011 — Simplify the historical-data encoder — Merged" width="400"/></a>
 <a href="https://github.com/ciaren-labs/Ciaren/pull/259"><img src="assets/card-ciaren.svg" alt="ciaren-labs/Ciaren #259 — Filter paid orders with two conditions — Merged" width="400"/></a>
 <a href="https://github.com/pacocartones/free-llm-api-hub/pull/398"><img src="assets/card-zerogpu.svg" alt="pacocartones/free-llm-api-hub #398 — Hugging Face Spaces ZeroGPU — Merged" width="400"/></a>
