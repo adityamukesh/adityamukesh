@@ -4,6 +4,10 @@
 
 </div>
 
+<p align="center"><b>Open-source contributor · Performance, reliability &amp; developer tooling</b></p>
+<p align="center">Merged contributions to <b>Kubernetes</b>, <b>OpenTelemetry</b> and <b>Valkey</b></p>
+<p align="center"><a href="#linux-foundation--cncf-contributions">Featured contributions</a> · <a href="https://github.com/adityamukesh?tab=repositories">Repositories</a> · <a href="https://www.linkedin.com/in/aditya-mukesh-13a804377/">Connect</a></p>
+
 <br/>
 
 <!--- RADAR & FOCUS --->
@@ -27,7 +31,7 @@
 <img src="assets/section-contributions.svg" alt="Open Source Contributions" width="830"/>
 
 <!-- CONTRIBUTIONS:START -->
-<p align="center"><b>17 merged PRs</b> · 11 repositories · 16 open PRs</p>
+<p align="center"><b>17 merged PRs</b> · 11 repositories · 18 open PRs</p>
 <p align="center"><sub>Public contributions to other owners’ repositories · refreshed 2026-10-29 · updates daily</sub></p>
 <h3 align="center">Linux Foundation &amp; CNCF contributions</h3>
 <p align="center"><b>5 merged PRs</b> across Kubernetes, OpenTelemetry and Valkey</p>
@@ -55,6 +59,8 @@
 
 | Project | Contribution |
 | :--- | :--- |
+| open-telemetry/opentelemetry-kotlin | [#1353 · fix: guard init-time user code with SdkErrorHandler](https://github.com/open-telemetry/opentelemetry-kotlin/pull/1353) |
+| open-telemetry/otel-arrow | [#4575 · perf(query-engine): skip selection vectors for scalar predicates](https://github.com/open-telemetry/otel-arrow/pull/4575) |
 | kubernetes-sigs/image-builder | [#2190 · test(azure): cover CI authentication isolation](https://github.com/kubernetes-sigs/image-builder/pull/2190) |
 | JabRef/jabref | [#17441 · Preserve syntax highlighting when copying BibTeX in Source tab (#17392)](https://github.com/JabRef/jabref/pull/17441) |
 | valkey-io/valkey | [#5009 · Deflake Backlog cursor stays pinned repl-compression test](https://github.com/valkey-io/valkey/pull/5009) |
@@ -63,8 +69,6 @@
 | vikas0799/shopsphere | [#455 · feat: add GitHub Actions CI workflow and README badge](https://github.com/vikas0799/shopsphere/pull/455) |
 | vikas0799/shopsphere | [#454 · feat: add persistent dark mode toggle](https://github.com/vikas0799/shopsphere/pull/454) |
 | vikas0799/shopsphere | [#453 · feat: show toast notification when product is added to cart](https://github.com/vikas0799/shopsphere/pull/453) |
-| vikas0799/shopsphere | [#452 · feat: add pagination to the product list](https://github.com/vikas0799/shopsphere/pull/452) |
-| vikas0799/shopsphere | [#451 · fix: atomically reduce product stock after order is placed](https://github.com/vikas0799/shopsphere/pull/451) |
 
 </details>
 <!-- CONTRIBUTIONS:END -->
@@ -188,23 +192,7 @@
 <br/>
 
 <div align="center">
-
-<a href="https://github.com/adityamukesh">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=adityamukesh&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=388bfd&text_color=7d8590&ring_color=388bfd&include_all_commits=true&count_private=true&cache_seconds=1800&v=2" alt="GitHub Stats"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/adityamukesh">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityamukesh&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=7d8590&langs_count=7&cache_seconds=1800&v=2" alt="Top Languages"/>
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-<a href="https://github.com/adityamukesh">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=adityamukesh&theme=github-dark&hide_border=true&background=0d1117&ring=388bfd&fire=58a6ff&currStreakLabel=79c0ff" alt="GitHub Streak"/>
-</a>
+<a href="https://github.com/adityamukesh#contributions"><img src="assets/generated/activity.svg" alt="GitHub contribution calendar: last-year total and streaks, refreshed hourly" width="830"/></a>
 </div>
 
 <br/>

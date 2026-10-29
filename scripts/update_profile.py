@@ -59,7 +59,9 @@ def card(item):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="400" height="144" viewBox="0 0 400 144" role="img">
 <title>{escape(repo)} #{item['number']} — {title}</title>
 <style>text {{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}}</style>
-<rect x=".5" y=".5" width="399" height="143" rx="11" fill="#0d1117" stroke="#30363d"/>
+<defs><linearGradient id="card-bg" x2="1" y2="1"><stop stop-color="#172236"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>
+<rect x=".5" y=".5" width="399" height="143" rx="12" fill="url(#card-bg)" stroke="#30363d"/>
+<path d="M16 1H384" stroke="#a371f7" stroke-opacity=".65"/>
 <text x="16" y="25" font-size="11" fill="#a371f7">{escape(textwrap.shorten(repo, width=43, placeholder='…'))}</text>
 {texts}
 <text x="16" y="96" font-size="10" fill="#58a6ff">{affiliation}</text>

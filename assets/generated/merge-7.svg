@@ -1,7 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="144" viewBox="0 0 400 144" role="img">
 <title>oss-slu/mithridatium #146 — test: extend CLI/docs sync test to detect and repair (#138)</title>
 <style>text {font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}</style>
-<rect x=".5" y=".5" width="399" height="143" rx="11" fill="#0d1117" stroke="#30363d"/>
+<defs><linearGradient id="card-bg" x2="1" y2="1"><stop stop-color="#172236"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>
+<rect x=".5" y=".5" width="399" height="143" rx="12" fill="url(#card-bg)" stroke="#30363d"/>
+<path d="M16 1H384" stroke="#a371f7" stroke-opacity=".65"/>
 <text x="16" y="25" font-size="11" fill="#a371f7">oss-slu/mithridatium</text>
 <text x="16" y="57" font-size="14" fill="#e6edf3">test: extend CLI/docs sync test to detect</text>
 <text x="16" y="77" font-size="14" fill="#e6edf3">and repair (#138)</text>

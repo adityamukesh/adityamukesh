@@ -1,0 +1,35 @@
+name: Refresh contribution calendar
+on:
+  schedule:
+    - cron: '43 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_activity.py
+      - tests/test_activity.py
+      - .github/workflows/refresh-activity.yml
+permissions:
+  contents: write
+concurrency:
+  group: profile-writer
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+      - run: python3 -m unittest discover -s tests -v
+      - run: python3 scripts/update_activity.py
+      - name: Publish calendar snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/generated/activity.svg profile-3d-contrib
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh contribution calendar snapshot"
+            git push
+          fi

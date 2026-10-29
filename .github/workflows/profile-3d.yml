@@ -33,6 +33,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
+      - name: Remove duplicate total from graph
+        run: python3 -c 'from scripts.update_activity import hide_3d_total; hide_3d_total()'
+
       - name: Commit generated files
         run: |
           git config user.name github-actions
