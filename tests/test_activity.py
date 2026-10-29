@@ -13,7 +13,10 @@ class ActivityTests(unittest.TestCase):
         self.assertEqual(streaks(days), (3, 3))
         days.append((date(2026, 10, 29), 0))
         self.assertEqual(streaks(days), (0, 3))
-        ElementTree.fromstring(render(158, days, '2026-10-29 10:00 UTC'))
+        svg = render(158, days, '2026-10-29 10:00 UTC')
+        ElementTree.fromstring(svg)
+        self.assertIn('View live', svg)
+        self.assertNotIn('>158<', svg)
 
     def test_calendar_parses_all_days_and_heading(self):
         page = '<h2 id="js-contribution-activity-description">158 contributions in the last year</h2>'

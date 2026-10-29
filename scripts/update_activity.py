@@ -73,17 +73,17 @@ def streaks(days):
 
 def render(total, days, stamp):
     current, longest = streaks(days)
-    values = [(total, 'CONTRIBUTIONS · LAST YEAR', '#58a6ff'),
+    values = [('View live ↗', 'TOTAL ON GITHUB', '#58a6ff'),
               (current, 'CURRENT STREAK · DAYS', '#3fb950'),
               (longest, 'LONGEST IN WINDOW · DAYS', '#a371f7')]
     parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="830" height="192" viewBox="0 0 830 192" role="img">',
-             '<title>GitHub contribution calendar snapshot</title>',
+             '<title>GitHub live contribution total link and streak snapshot</title>',
              '<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#142033"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>',
              '<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}</style>',
              '<rect x=".5" y=".5" width="829" height="191" rx="16" fill="url(#bg)" stroke="#30363d"/>']
     for i, (value, label, color) in enumerate(values):
         x = 138 + i * 277
-        parts += [f'<text x="{x}" y="79" text-anchor="middle" fill="{color}" font-size="44" font-weight="700">{value}</text>',
+        parts += [f'<text x="{x}" y="79" text-anchor="middle" fill="{color}" font-size="{28 if isinstance(value, str) else 44}" font-weight="700">{value}</text>',
                   f'<text x="{x}" y="110" text-anchor="middle" fill="#c9d1d9" font-size="10" letter-spacing="1">{label}</text>']
     parts += [f'<text x="415" y="151" text-anchor="middle" fill="#9da7b3" font-size="11">GitHub public calendar · {days[0][0]} to {days[-1][0]}</text>',
               f'<text x="415" y="173" text-anchor="middle" fill="#9da7b3" font-size="10">Checked {stamp} · refreshes hourly · GitHub may cache counts</text>', '</svg>\n']

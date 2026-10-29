@@ -127,7 +127,7 @@
 <br/>
 
 <div align="center">
-<a href="https://github.com/adityamukesh#contributions"><img src="assets/generated/activity.svg" alt="GitHub contribution calendar: last-year total and streaks, refreshed hourly" width="830"/></a>
+<a href="https://github.com/adityamukesh#js-contribution-activity-description"><img src="assets/generated/activity.svg" alt="View the live contribution total on GitHub; streaks are hourly snapshots" width="830"/></a>
 </div>
 
 <br/>
