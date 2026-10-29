@@ -8,6 +8,12 @@
 
 <br/>
 
+<div align="center">
+<img src="assets/contribution-flow.svg" alt="From issue to impact: understand, build, verify, contribute" width="830"/>
+</div>
+
+<br/>
+
 <!--- OPEN SOURCE CONTRIBUTIONS --->
 <img src="assets/section-contributions.svg" alt="Open Source Contributions" width="830"/>
 

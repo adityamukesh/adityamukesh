@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="156" viewBox="0 0 830 156" role="img" aria-labelledby="title desc">
+<title id="title">From issue to impact</title>
+<desc id="desc">An illustration of the contribution process: understand an issue, write focused code, verify with tests, and collaborate toward a merge. Animation is decorative, not live status.</desc>
+<defs>
+<linearGradient id="surface" x2="1" y2="1"><stop stop-color="#111c2d"/><stop offset="1" stop-color="#090e18"/></linearGradient>
+<linearGradient id="track"><stop stop-color="#67e8f9"/><stop offset=".35" stop-color="#a5b4fc"/><stop offset=".7" stop-color="#fcd34d"/><stop offset="1" stop-color="#6ee7b7"/></linearGradient>
+</defs>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.packet{animation:travel 7s ease-in-out infinite;opacity:0}
+.second{animation-delay:3.5s}
+@keyframes travel{0%{transform:translateX(0);opacity:0}10%{opacity:.9}90%{opacity:.9}100%{transform:translateX(579px);opacity:0}}
+@media(prefers-reduced-motion:reduce){.packet{animation:none;opacity:0}}
+</style>
+<rect x=".5" y=".5" width="829" height="151" rx="15" fill="url(#surface)" stroke="#233249"/>
+<text x="24" y="29" fill="#8093af" font-size="10" letter-spacing="2">FROM ISSUE TO IMPACT</text>
+<text x="805" y="29" text-anchor="end" fill="#62748e" font-size="10">SMALL CHANGES. REAL PROGRESS.</text>
+<path d="M125 77H704" stroke="#223349" stroke-width="2"/>
+<path d="M125 77H704" stroke="url(#track)" stroke-width="1" stroke-opacity=".45"/>
+<circle class="packet" cx="125" cy="77" r="3" fill="#b4e5ff"/>
+<circle class="packet second" cx="125" cy="77" r="3" fill="#c4b5fd"/>
+<g transform="translate(125 77)">
+<circle r="22" fill="#10212b" stroke="#67e8f9" stroke-opacity=".6"/>
+<circle r="9" fill="none" stroke="#67e8f9" stroke-width="1.6"/><path d="M0-5V1M0 5V6" stroke="#67e8f9" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g transform="translate(318 77)">
+<circle r="22" fill="#1b1b34" stroke="#a5b4fc" stroke-opacity=".6"/>
+<path d="M-7-6L-13 0L-7 6M7-6L13 0L7 6M3-10L-3 10" fill="none" stroke="#a5b4fc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(511 77)">
+<circle r="22" fill="#26231a" stroke="#fcd34d" stroke-opacity=".6"/>
+<path d="M-6-10H6M-3-10V-2L-10 9Q-11 12-7 12H7Q11 12 10 9L3-2V-10M-5 4H5" fill="none" stroke="#fcd34d" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g transform="translate(704 77)">
+<circle r="22" fill="#112820" stroke="#6ee7b7" stroke-opacity=".6"/>
+<path d="M-5-8V9M7-8V-4Q7 3-5 3" fill="none" stroke="#6ee7b7" stroke-width="1.5"/>
+<g fill="#112820" stroke="#6ee7b7" stroke-width="1.5"><circle cx="-5" cy="-9" r="3"/><circle cx="7" cy="-9" r="3"/><circle cx="-5" cy="10" r="3"/></g>
+</g>
+<g font-size="12" font-weight="600" text-anchor="middle"><text x="125" y="126" fill="#a5e8f5">Understand</text><text x="318" y="126" fill="#c4c9ff">Build</text><text x="511" y="126" fill="#f9df93">Verify</text><text x="704" y="126" fill="#a0e8cc">Contribute</text></g>
+</svg>
