@@ -59,8 +59,8 @@
 
 | Project | Contribution |
 | :--- | :--- |
-| open-telemetry/opentelemetry-kotlin | [#1353 · fix: guard init-time user code with SdkErrorHandler](https://github.com/open-telemetry/opentelemetry-kotlin/pull/1353) |
 | open-telemetry/otel-arrow | [#4575 · perf(query-engine): skip selection vectors for scalar predicates](https://github.com/open-telemetry/otel-arrow/pull/4575) |
+| open-telemetry/opentelemetry-kotlin | [#1353 · fix: guard init-time user code with SdkErrorHandler](https://github.com/open-telemetry/opentelemetry-kotlin/pull/1353) |
 | kubernetes-sigs/image-builder | [#2190 · test(azure): cover CI authentication isolation](https://github.com/kubernetes-sigs/image-builder/pull/2190) |
 | JabRef/jabref | [#17441 · Preserve syntax highlighting when copying BibTeX in Source tab (#17392)](https://github.com/JabRef/jabref/pull/17441) |
 | valkey-io/valkey | [#5009 · Deflake Backlog cursor stays pinned repl-compression test](https://github.com/valkey-io/valkey/pull/5009) |
