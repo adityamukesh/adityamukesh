@@ -72,37 +72,12 @@
 
 <br/>
 
-<table width="100%" cellspacing="0" cellpadding="0" border="0">
-<tr>
-<td width="50%" valign="top" align="left">
-
-[![ShopSphere](assets/card-shopsphere.svg)](https://github.com/adityamukesh/shopsphere)
-
-</td>
-<td width="50%" valign="top" align="right">
-
-[![DSA & Problem Solving](assets/card-dsa.svg)](https://github.com/adityamukesh/dsa--assignment)
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-<br/>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="left">
-
-[![Open Source Hub](assets/card-opensource.svg)](https://github.com/adityamukesh/ADITYA-MUKESH)
-
-</td>
-<td width="50%" valign="top" align="right">
-
-[![FinTech App](assets/card-fintech.svg)](https://github.com/adityamukesh/fintech)
-
-</td>
-</tr>
-</table>
+<div align="center">
+<a href="https://github.com/adityamukesh/shopsphere"><img src="assets/card-shopsphere.svg" alt="ShopSphere" width="400"/></a>
+<a href="https://github.com/adityamukesh/dsa--assignment"><img src="assets/card-dsa.svg" alt="DSA &amp; Problem Solving" width="400"/></a>
+<a href="https://github.com/adityamukesh/ADITYA-MUKESH"><img src="assets/card-opensource.svg" alt="Open Source Hub" width="400"/></a>
+<a href="https://github.com/adityamukesh/fintech"><img src="assets/card-fintech.svg" alt="FinTech App" width="400"/></a>
+</div>
 
 <br/>
 
@@ -134,15 +109,7 @@
 
 <br/>
 
-<div align="center">
-
-[![Codeforces](https://img.shields.io/badge/Codeforces-adityamukesh111-%231F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/adityamukesh111)
-&nbsp;
-[![LeetCode](https://img.shields.io/badge/LeetCode-aditya__mukesh123-%23FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/aditya_mukesh123/)
-&nbsp;
-[![CodeChef](https://img.shields.io/badge/CodeChef-coder__baby12-%235B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/coder_baby12)
-
-</div>
+<p align="center"><a href="https://codeforces.com/profile/adityamukesh111">Codeforces ↗</a> · <a href="https://leetcode.com/u/aditya_mukesh123/">LeetCode ↗</a> · <a href="https://www.codechef.com/users/coder_baby12">CodeChef ↗</a></p>
 
 <br/>
 
@@ -171,21 +138,7 @@
 <br/>
 
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aditya_Mukesh-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-mukesh-13a804377/)
-&nbsp;
-[![LeetCode](https://img.shields.io/badge/LeetCode-aditya__mukesh123-%23FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/aditya_mukesh123/)
-&nbsp;
-[![Codeforces](https://img.shields.io/badge/Codeforces-adityamukesh111-%231F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/adityamukesh111)
-&nbsp;
-[![CodeChef](https://img.shields.io/badge/CodeChef-coder__baby12-%235B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/coder_baby12)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-adityamukesh-%23121011?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adityamukesh)
-
+<a href="https://www.linkedin.com/in/aditya-mukesh-13a804377/"><img src="assets/connect.svg" alt="Connect with Aditya Mukesh on LinkedIn" width="830"/></a>
 </div>
 
-<br/>
-
-<div align="center">
-<img src="assets/divider.svg" alt="" width="830"/>
-</div>
+<p align="center"><a href="https://www.linkedin.com/in/aditya-mukesh-13a804377/">LinkedIn</a> · <a href="https://github.com/adityamukesh?tab=repositories">GitHub repositories</a> · <a href="#linux-foundation--cncf-contributions">Back to featured work ↑</a></p>
