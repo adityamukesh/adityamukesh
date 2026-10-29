@@ -1,0 +1,52 @@
+name: Refresh profile statistics
+
+on:
+  schedule:
+    - cron: '23 2 * * *' # 07:53 India time
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/**
+      - tests/**
+      - .github/workflows/refresh-profile.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-writer
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+      - name: Test generators
+        run: python3 -m unittest discover -s tests -v
+      - name: Refresh public GitHub contributions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_profile.py
+      - name: Refresh competitive programming scores
+        id: competitive
+        continue-on-error: true
+        run: python3 scripts/update_competitive.py
+      - name: Publish changed statistics
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/generated assets/competitive.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh public profile statistics"
+            git push
+          fi
+      - name: Report unavailable sources
+        if: steps.competitive.outcome == 'failure'
+        run: |
+          echo 'One or more score providers failed. Last verified values and dates were preserved.'
+          exit 1

@@ -11,14 +11,21 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-writer
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     name: generate-github-profile-3d-contrib
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Generate 3D contribution graph
         uses: yoshi389111/github-profile-3d-contrib@latest
@@ -30,7 +37,8 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -A .
-          if git commit -m "chore: update 3D contribution graph"; then
+          git add profile-3d-contrib
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update 3D contribution graph"
             git push
           fi

@@ -26,30 +26,48 @@
 <!--- OPEN SOURCE CONTRIBUTIONS --->
 <img src="assets/section-contributions.svg" alt="Open Source Contributions" width="830"/>
 
-<p align="center"><b>6 featured merges</b> · 4 open-source projects</p>
-
-<!-- Individual linked images wrap to one column on narrow screens. -->
+<!-- CONTRIBUTIONS:START -->
+<p align="center"><b>17 merged PRs</b> · 11 repositories · 16 open PRs</p>
+<p align="center"><sub>Public contributions to other owners’ repositories · refreshed 2026-10-29 · updates daily</sub></p>
+<h3 align="center">Linux Foundation &amp; CNCF contributions</h3>
+<p align="center"><b>5 merged PRs</b> across Kubernetes, OpenTelemetry and Valkey</p>
 <div align="center">
-<a href="https://github.com/valkey-io/valkey/pull/4843"><img src="assets/card-valkey-merged.svg" alt="valkey-io/valkey #4843 — Correct XACKDEL KEEPREF replies — Merged" width="400"/></a>
-<a href="https://github.com/wboayue/rust-ibapi/pull/1011"><img src="assets/card-rust-ibapi.svg" alt="wboayue/rust-ibapi #1011 — Simplify the historical-data encoder — Merged" width="400"/></a>
-<a href="https://github.com/ciaren-labs/Ciaren/pull/259"><img src="assets/card-ciaren.svg" alt="ciaren-labs/Ciaren #259 — Filter paid orders with two conditions — Merged" width="400"/></a>
-<a href="https://github.com/pacocartones/free-llm-api-hub/pull/398"><img src="assets/card-zerogpu.svg" alt="pacocartones/free-llm-api-hub #398 — Hugging Face Spaces ZeroGPU — Merged" width="400"/></a>
-<a href="https://github.com/pacocartones/free-llm-api-hub/pull/386"><img src="assets/card-poolside.svg" alt="pacocartones/free-llm-api-hub #386 — Document Poolside’s data policy — Merged" width="400"/></a>
-<a href="https://github.com/pacocartones/free-llm-api-hub/pull/354"><img src="assets/card-hunyuan.svg" alt="pacocartones/free-llm-api-hub #354 — Re-verify Tencent Hunyuan — Merged" width="400"/></a>
+<a href="https://github.com/kubernetes-sigs/inference-perf/pull/934"><img src="assets/generated/merge-1.svg" alt="kubernetes-sigs/inference-perf #934 — Bound ShareGPT memory use across repeated dataset passes" width="400"/></a>
+<a href="https://github.com/kubernetes-sigs/inference-perf/pull/936"><img src="assets/generated/merge-2.svg" alt="kubernetes-sigs/inference-perf #936 — Run the pre-push type check with the CI command" width="400"/></a>
+<a href="https://github.com/open-telemetry/opentelemetry-kotlin/pull/1329"><img src="assets/generated/merge-3.svg" alt="open-telemetry/opentelemetry-kotlin #1329 — refactor(config): make the EnvVarReader in OpenTelemetryConfigReader nullable" width="400"/></a>
+<a href="https://github.com/open-telemetry/otel-arrow/pull/4424"><img src="assets/generated/merge-4.svg" alt="open-telemetry/otel-arrow #4424 — fix(query-engine): fall back past coalesce arguments absent from the batch" width="400"/></a>
+<a href="https://github.com/valkey-io/valkey/pull/4843"><img src="assets/generated/merge-5.svg" alt="valkey-io/valkey #4843 — Fix XACKDEL KEEPREF reply for acked entry whose stream item is gone" width="400"/></a>
+</div>
+<h3 align="center">More open-source contributions</h3>
+<div align="center">
+<a href="https://github.com/swciitg/Hackstack-Portal/pull/48"><img src="assets/generated/merge-6.svg" alt="swciitg/Hackstack-Portal #48 — Preserve in-progress quiz answers across modal close and reload" width="400"/></a>
+<a href="https://github.com/oss-slu/mithridatium/pull/146"><img src="assets/generated/merge-7.svg" alt="oss-slu/mithridatium #146 — test: extend CLI/docs sync test to detect and repair (#138)" width="400"/></a>
+<a href="https://github.com/oss-slu/mithridatium/pull/145"><img src="assets/generated/merge-8.svg" alt="oss-slu/mithridatium #145 — [FEATURE] Add a spell-check step to CI (#137)" width="400"/></a>
+<a href="https://github.com/kiinshuk/kinshow/pull/433"><img src="assets/generated/merge-9.svg" alt="kiinshuk/kinshow #433 — fix(design): unify button variants into single system (primary/secondary/ghost/danger)" width="400"/></a>
+<a href="https://github.com/wboayue/rust-ibapi/pull/1011"><img src="assets/generated/merge-10.svg" alt="wboayue/rust-ibapi #1011 — Remove unused chart options from historical data encoder" width="400"/></a>
+<a href="https://github.com/ciaren-labs/Ciaren/pull/259"><img src="assets/generated/merge-11.svg" alt="ciaren-labs/Ciaren #259 — docs: add filter paid orders recipe" width="400"/></a>
 </div>
 
-<p align="center"><sub><a href="https://github.com/search?q=is%3Apr+is%3Amerged+author%3Aadityamukesh&amp;type=pullrequests">View all merged pull requests ↗</a></sub></p>
+[View all merged pull requests](https://github.com/search?q=is%3Apr+is%3Amerged+is%3Apublic+author%3Aadityamukesh+-user%3Aadityamukesh&type=pullrequests)
 
 <details>
-<summary><b>More contributions · open pull requests</b></summary>
+<summary><b>Recent open pull requests</b></summary>
 
 | Project | Contribution |
 | :--- | :--- |
-| **Kinshow** | [#433 · Unify button variants](https://github.com/kiinshuk/kinshow/pull/433) |
-| **Sentri** | [#162 · Contributor architecture map](https://github.com/SahilKumar75/Sentri/pull/162) |
-| **JabRef** | [#17441 · Preserve BibTeX syntax highlighting](https://github.com/JabRef/jabref/pull/17441) |
+| kubernetes-sigs/image-builder | [#2190 · test(azure): cover CI authentication isolation](https://github.com/kubernetes-sigs/image-builder/pull/2190) |
+| JabRef/jabref | [#17441 · Preserve syntax highlighting when copying BibTeX in Source tab (#17392)](https://github.com/JabRef/jabref/pull/17441) |
+| valkey-io/valkey | [#5009 · Deflake Backlog cursor stays pinned repl-compression test](https://github.com/valkey-io/valkey/pull/5009) |
+| codearena-oss/codearena | [#55 · test: cover public problem page behavior](https://github.com/codearena-oss/codearena/pull/55) |
+| SahilKumar75/Sentri | [#162 · docs(repo): add repository architecture map for contributors](https://github.com/SahilKumar75/Sentri/pull/162) |
+| vikas0799/shopsphere | [#455 · feat: add GitHub Actions CI workflow and README badge](https://github.com/vikas0799/shopsphere/pull/455) |
+| vikas0799/shopsphere | [#454 · feat: add persistent dark mode toggle](https://github.com/vikas0799/shopsphere/pull/454) |
+| vikas0799/shopsphere | [#453 · feat: show toast notification when product is added to cart](https://github.com/vikas0799/shopsphere/pull/453) |
+| vikas0799/shopsphere | [#452 · feat: add pagination to the product list](https://github.com/vikas0799/shopsphere/pull/452) |
+| vikas0799/shopsphere | [#451 · fix: atomically reduce product stock after order is placed](https://github.com/vikas0799/shopsphere/pull/451) |
 
 </details>
+<!-- CONTRIBUTIONS:END -->
 
 <br/>
 

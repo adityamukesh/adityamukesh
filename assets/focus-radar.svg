@@ -81,8 +81,8 @@
   <g transform="translate(570, 52)">
     <text x="0" y="14" class="cell-title">Open Source &amp; Core Systems</text>
     <text class="cell-desc">
-      <tspan x="0" y="32">Valkey Core Contributor (PR #4843 Merged),</tspan>
-      <tspan x="0" y="48">C/C++, high-performance distributed systems</tspan>
+      <tspan x="0" y="32">Kubernetes, OpenTelemetry &amp; Valkey</tspan>
+      <tspan x="0" y="48">Performance, correctness &amp; regression tests</tspan>
     </text>
   </g>
 </svg>
