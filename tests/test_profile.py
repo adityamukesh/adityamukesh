@@ -21,7 +21,7 @@ def pr(number, date='2026-10-28T12:00:00Z'):
 class ProfileTests(unittest.TestCase):
     def test_counts_order_escape_and_preservation(self):
         section, assets = profile.render([pr(1, '2026-10-01'), pr(2)], [pr(3)], 'user', '2026-10-29')
-        self.assertIn('2 merged PRs</b> · 1 repositories · 1 open PRs', section)
+        self.assertIn('2 merged PRs · 1 repositories · 1 open PRs', section)
         self.assertIn('#2', assets['assets/generated/merge-1.svg'])
         self.assertIn('&#124;', section)
         for svg in assets.values():

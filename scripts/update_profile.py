@@ -49,26 +49,59 @@ def repository(item):
     return item['repository_url'].removeprefix('https://api.github.com/repos/')
 
 
+def dashboard(merged, projects, featured, opened):
+    stats = [(merged, 'MERGED PRS', '#67e8f9'),
+             (featured, 'LF / CNCF MERGES', '#c4b5fd'),
+             (projects, 'REPOSITORIES', '#fbbf24'),
+             (opened, 'OPEN PRS', '#6ee7b7')]
+    pieces = ['<svg xmlns="http://www.w3.org/2000/svg" width="830" height="128" viewBox="0 0 830 128" role="img">',
+              '<title>Public open-source contribution dashboard</title>',
+              '<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}</style>']
+    for i, (value, label, color) in enumerate(stats):
+        x = i * 210
+        pieces.extend([f'<g transform="translate({x} 0)">',
+                       '<rect x=".5" y=".5" width="199" height="119" rx="14" fill="#101a2b" stroke="#29374f"/>',
+                       f'<path d="M18 1H182" stroke="{color}" stroke-opacity=".7"/>',
+                       f'<circle cx="172" cy="25" r="4" fill="{color}" fill-opacity=".6"/>',
+                       f'<text x="20" y="65" font-size="40" font-weight="700" fill="{color}">{value}</text>',
+                       f'<text x="20" y="94" font-size="10" letter-spacing="1" fill="#aab8cc">{label}</text>', '</g>'])
+    return '\n'.join(pieces + ['</svg>\n'])
+
+
 def card(item):
     title = escape(item['title'])
     repo = repository(item)
     lines = textwrap.wrap(item['title'], width=44, max_lines=2, placeholder='…')
-    texts = '\n'.join(f'<text x="16" y="{57 + i * 20}" font-size="14" fill="#e6edf3">{escape(line)}</text>' for i, line in enumerate(lines))
+    texts = '\n'.join(f'<text x="18" y="{80 + i * 20}" font-size="14" font-weight="500" fill="#edf2fa">{escape(line)}</text>' for i, line in enumerate(lines))
     merged = item['pull_request']['merged_at'][:10]
     affiliation = escape(foundation(item) or 'Open source')
-    accent = '#67e8f9' if foundation(item) else '#a5b4fc'
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="400" height="144" viewBox="0 0 400 144" role="img">
+    owner = repo.split('/')[0].lower()
+    accent, label = {
+        'kubernetes-sigs': ('#7db4ff', 'KUBERNETES'),
+        'kubernetes': ('#7db4ff', 'KUBERNETES'),
+        'open-telemetry': ('#fbbf24', 'OPENTELEMETRY'),
+        'valkey-io': ('#5eead4', 'VALKEY'),
+    }.get(owner, ('#c4b5fd', 'OPEN SOURCE'))
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="400" height="182" viewBox="0 0 400 182" role="img">
 <title>{escape(repo)} #{item['number']} — {title}</title>
 <style>text {{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}}</style>
-<defs><linearGradient id="card-bg" x2="1" y2="1"><stop stop-color="#172236"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>
-<rect x=".5" y=".5" width="399" height="143" rx="12" fill="url(#card-bg)" stroke="#30363d"/>
-<path d="M16 1H384" stroke="{accent}" stroke-opacity=".8"/>
-<text x="16" y="25" font-size="11" fill="{accent}">{escape(textwrap.shorten(repo, width=43, placeholder='…'))}</text>
+<defs>
+<linearGradient id="card-bg" x2="1" y2="1"><stop stop-color="#172236"/><stop offset="1" stop-color="#0c1320"/></linearGradient>
+<radialGradient id="glow" cx="1" cy="0" r="1"><stop stop-color="{accent}" stop-opacity=".09"/><stop offset="1" stop-color="{accent}" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x=".5" y=".5" width="399" height="175" rx="14" fill="url(#card-bg)" stroke="#2b3a50"/>
+<rect x="1" y="1" width="398" height="174" rx="14" fill="url(#glow)"/>
+<path d="M18 1H382" stroke="{accent}" stroke-opacity=".8"/>
+<circle cx="21" cy="25" r="3" fill="{accent}"/>
+<text x="32" y="29" font-size="10" font-weight="700" letter-spacing="1.2" fill="{accent}">{label}</text>
+<rect x="311" y="14" width="72" height="22" rx="11" fill="{accent}" fill-opacity=".09" stroke="{accent}" stroke-opacity=".25"/>
+<text x="347" y="28.5" text-anchor="middle" font-size="9" font-weight="600" fill="{accent}">MERGED</text>
+<text x="18" y="51" font-size="10" fill="#8fa1b8">{escape(textwrap.shorten(repo, width=53, placeholder='…'))}</text>
 {texts}
-<text x="16" y="96" font-size="10" fill="{accent}">{affiliation}</text>
-<path d="M16 111H384" stroke="#30363d"/>
-<text x="16" y="130" font-size="11" fill="#d2a8ff">MERGED · #{item['number']}</text>
-<text x="384" y="130" text-anchor="end" font-size="11" fill="#9da7b3">{merged}</text>
+<text x="18" y="125" font-size="10" fill="{accent}">{affiliation}</text>
+<path d="M18 141H382" stroke="#29374b"/>
+<text x="18" y="162" font-size="11" font-weight="600" fill="#b9c8df">#{item['number']}</text>
+<text x="382" y="162" text-anchor="end" font-size="10" fill="#8fa1b8">{merged}  ↗</text>
 </svg>
 '''
 
@@ -79,12 +112,12 @@ def render(merged, opened, username, today):
     projects = len({repository(item) for item in merged})
     featured = [item for item in merged if foundation(item)]
     others = [item for item in merged if not foundation(item)]
-    lines = [START, f'<p align="center"><b>{len(merged)} merged PRs</b> · {projects} repositories · {len(opened)} open PRs</p>',
+    lines = [START, f'<p align="center"><img src="assets/generated/dashboard.svg" width="830" alt="{len(merged)} merged PRs · {projects} repositories · {len(opened)} open PRs · {len(featured)} Linux Foundation/CNCF merges"/></p>',
              f'<p align="center"><sub>Public contributions to other owners’ repositories · refreshed {today} · updates daily</sub></p>',
              '<h3 align="center">Linux Foundation &amp; CNCF contributions</h3>',
              f'<p align="center"><b>{len(featured)} merged PRs</b> across Kubernetes, OpenTelemetry and Valkey</p>',
              '<div align="center">']
-    assets = {}
+    assets = {'assets/generated/dashboard.svg': dashboard(len(merged), projects, len(featured), len(opened))}
     selected = featured[:8] + others[:6]
     for i, item in enumerate(selected, 1):
         if i == len(featured[:8]) + 1:
