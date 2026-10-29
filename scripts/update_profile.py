@@ -118,15 +118,20 @@ def render(merged, opened, username, today):
              f'<p align="center"><b>{len(featured)} merged PRs</b> across Kubernetes, OpenTelemetry and Valkey</p>',
              '<div align="center">']
     assets = {'assets/generated/dashboard.svg': dashboard(len(merged), projects, len(featured), len(opened))}
-    selected = featured[:8] + others[:6]
+    selected = featured[:4] or merged[:4]
     for i, item in enumerate(selected, 1):
-        if i == len(featured[:8]) + 1:
-            lines.extend(['</div>', '<h3 align="center">More open-source contributions</h3>', '<div align="center">'])
         path = f'assets/generated/merge-{i}.svg'
         assets[path] = card(item)
         lines.append(f'<a href="{escape(item["html_url"], quote=True)}"><img src="{path}" alt="{escape(repository(item) + " #" + str(item["number"]) + " — " + item["title"], quote=True)}" width="400"/></a>')
-    lines.extend(['</div>', '', f'[View all merged pull requests](https://github.com/search?q=is%3Apr+is%3Amerged+is%3Apublic+author%3A{username}+-user%3A{username}&type=pullrequests)', '',
-                  '<details>', '<summary><b>Recent open pull requests</b></summary>', '', '| Project | Contribution |', '| :--- | :--- |'])
+    lines.extend(['</div>', '', '<details>', '<summary><b>Explore all merged contributions ↗</b></summary>', '', '| Project | Merged contribution |', '| :--- | :--- |'])
+    for item in merged:
+        label = escape(item['title']).replace('|', '&#124;').replace('[', '&#91;').replace(']', '&#93;').replace('\n', ' ')
+        project = escape(repository(item))
+        if foundation(item):
+            project = f'**{project}**'
+        lines.append(f'| {project} | [#{item["number"]} · {label}]({item["html_url"]}) |')
+    lines.extend(['', '</details>', '', f'[View merged PRs on GitHub](https://github.com/search?q=is%3Apr+is%3Amerged+is%3Apublic+author%3A{username}+-user%3A{username}&type=pullrequests)', '',
+                  '<details>', '<summary><b>Work in progress · recent open pull requests</b></summary>', '', '| Project | Contribution |', '| :--- | :--- |'])
     for item in opened[:10]:
         label = escape(item['title']).replace('|', '&#124;').replace('[', '&#91;').replace(']', '&#93;').replace('\n', ' ')
         lines.append(f'| {escape(repository(item))} | [#{item["number"]} · {label}]({item["html_url"]}) |')
