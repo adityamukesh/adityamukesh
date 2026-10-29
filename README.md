@@ -12,25 +12,27 @@
 <img src="assets/section-contributions.svg" alt="Open Source Contributions" width="830"/>
 
 <!-- CONTRIBUTIONS:START -->
-<p align="center"><img src="assets/generated/dashboard.svg" width="830" alt="17 merged PRs · 11 repositories · 18 open PRs · 5 Linux Foundation/CNCF merges"/></p>
+<p align="center"><img src="assets/generated/dashboard.svg" width="830" alt="19 merged PRs · 12 repositories · 18 open PRs · 7 Linux Foundation/CNCF merges"/></p>
 <p align="center"><sub>Public contributions to other owners’ repositories · refreshed 2026-10-29 · updates daily</sub></p>
 <h3 align="center">Linux Foundation &amp; CNCF contributions</h3>
-<p align="center"><b>5 merged PRs</b> across Kubernetes, OpenTelemetry and Valkey</p>
+<p align="center"><b>7 merged PRs</b> across Kubernetes, OpenTelemetry and Valkey</p>
 <div align="center">
-<a href="https://github.com/kubernetes-sigs/inference-perf/pull/934"><img src="assets/generated/merge-1.svg" alt="kubernetes-sigs/inference-perf #934 — Bound ShareGPT memory use across repeated dataset passes" width="400"/></a>
-<a href="https://github.com/kubernetes-sigs/inference-perf/pull/936"><img src="assets/generated/merge-2.svg" alt="kubernetes-sigs/inference-perf #936 — Run the pre-push type check with the CI command" width="400"/></a>
-<a href="https://github.com/open-telemetry/opentelemetry-kotlin/pull/1329"><img src="assets/generated/merge-3.svg" alt="open-telemetry/opentelemetry-kotlin #1329 — refactor(config): make the EnvVarReader in OpenTelemetryConfigReader nullable" width="400"/></a>
-<a href="https://github.com/open-telemetry/otel-arrow/pull/4424"><img src="assets/generated/merge-4.svg" alt="open-telemetry/otel-arrow #4424 — fix(query-engine): fall back past coalesce arguments absent from the batch" width="400"/></a>
-<a href="https://github.com/valkey-io/valkey/pull/4843"><img src="assets/generated/merge-5.svg" alt="valkey-io/valkey #4843 — Fix XACKDEL KEEPREF reply for acked entry whose stream item is gone" width="400"/></a>
+<a href="https://github.com/kubernetes-sigs/kueue/pull/17970"><img src="assets/generated/merge-1.svg" alt="kubernetes-sigs/kueue #17970 — test: cover kueuectl delete kueueworkload and kueueworkloads aliases" width="400"/></a>
+<a href="https://github.com/open-telemetry/opentelemetry-kotlin/pull/1354"><img src="assets/generated/merge-2.svg" alt="open-telemetry/opentelemetry-kotlin #1354 — fix: guard init-time user code with SdkErrorHandler" width="400"/></a>
+<a href="https://github.com/kubernetes-sigs/inference-perf/pull/934"><img src="assets/generated/merge-3.svg" alt="kubernetes-sigs/inference-perf #934 — Bound ShareGPT memory use across repeated dataset passes" width="400"/></a>
+<a href="https://github.com/kubernetes-sigs/inference-perf/pull/936"><img src="assets/generated/merge-4.svg" alt="kubernetes-sigs/inference-perf #936 — Run the pre-push type check with the CI command" width="400"/></a>
+<a href="https://github.com/open-telemetry/opentelemetry-kotlin/pull/1329"><img src="assets/generated/merge-5.svg" alt="open-telemetry/opentelemetry-kotlin #1329 — refactor(config): make the EnvVarReader in OpenTelemetryConfigReader nullable" width="400"/></a>
+<a href="https://github.com/open-telemetry/otel-arrow/pull/4424"><img src="assets/generated/merge-6.svg" alt="open-telemetry/otel-arrow #4424 — fix(query-engine): fall back past coalesce arguments absent from the batch" width="400"/></a>
+<a href="https://github.com/valkey-io/valkey/pull/4843"><img src="assets/generated/merge-7.svg" alt="valkey-io/valkey #4843 — Fix XACKDEL KEEPREF reply for acked entry whose stream item is gone" width="400"/></a>
 </div>
 <h3 align="center">More open-source contributions</h3>
 <div align="center">
-<a href="https://github.com/swciitg/Hackstack-Portal/pull/48"><img src="assets/generated/merge-6.svg" alt="swciitg/Hackstack-Portal #48 — Preserve in-progress quiz answers across modal close and reload" width="400"/></a>
-<a href="https://github.com/oss-slu/mithridatium/pull/146"><img src="assets/generated/merge-7.svg" alt="oss-slu/mithridatium #146 — test: extend CLI/docs sync test to detect and repair (#138)" width="400"/></a>
-<a href="https://github.com/oss-slu/mithridatium/pull/145"><img src="assets/generated/merge-8.svg" alt="oss-slu/mithridatium #145 — [FEATURE] Add a spell-check step to CI (#137)" width="400"/></a>
-<a href="https://github.com/kiinshuk/kinshow/pull/433"><img src="assets/generated/merge-9.svg" alt="kiinshuk/kinshow #433 — fix(design): unify button variants into single system (primary/secondary/ghost/danger)" width="400"/></a>
-<a href="https://github.com/wboayue/rust-ibapi/pull/1011"><img src="assets/generated/merge-10.svg" alt="wboayue/rust-ibapi #1011 — Remove unused chart options from historical data encoder" width="400"/></a>
-<a href="https://github.com/ciaren-labs/Ciaren/pull/259"><img src="assets/generated/merge-11.svg" alt="ciaren-labs/Ciaren #259 — docs: add filter paid orders recipe" width="400"/></a>
+<a href="https://github.com/swciitg/Hackstack-Portal/pull/48"><img src="assets/generated/merge-8.svg" alt="swciitg/Hackstack-Portal #48 — Preserve in-progress quiz answers across modal close and reload" width="400"/></a>
+<a href="https://github.com/oss-slu/mithridatium/pull/146"><img src="assets/generated/merge-9.svg" alt="oss-slu/mithridatium #146 — test: extend CLI/docs sync test to detect and repair (#138)" width="400"/></a>
+<a href="https://github.com/oss-slu/mithridatium/pull/145"><img src="assets/generated/merge-10.svg" alt="oss-slu/mithridatium #145 — [FEATURE] Add a spell-check step to CI (#137)" width="400"/></a>
+<a href="https://github.com/kiinshuk/kinshow/pull/433"><img src="assets/generated/merge-11.svg" alt="kiinshuk/kinshow #433 — fix(design): unify button variants into single system (primary/secondary/ghost/danger)" width="400"/></a>
+<a href="https://github.com/wboayue/rust-ibapi/pull/1011"><img src="assets/generated/merge-12.svg" alt="wboayue/rust-ibapi #1011 — Remove unused chart options from historical data encoder" width="400"/></a>
+<a href="https://github.com/ciaren-labs/Ciaren/pull/259"><img src="assets/generated/merge-13.svg" alt="ciaren-labs/Ciaren #259 — docs: add filter paid orders recipe" width="400"/></a>
 </div>
 
 [View all merged pull requests](https://github.com/search?q=is%3Apr+is%3Amerged+is%3Apublic+author%3Aadityamukesh+-user%3Aadityamukesh&type=pullrequests)
@@ -40,7 +42,7 @@
 
 | Project | Contribution |
 | :--- | :--- |
-| open-telemetry/opentelemetry-kotlin | [#1354 · fix: guard init-time user code with SdkErrorHandler](https://github.com/open-telemetry/opentelemetry-kotlin/pull/1354) |
+| kubernetes-sigs/kueue | [#17988 · test: check that kueuectl deletes the standalone Workload](https://github.com/kubernetes-sigs/kueue/pull/17988) |
 | open-telemetry/otel-arrow | [#4575 · perf(query-engine): skip selection vectors for scalar predicates](https://github.com/open-telemetry/otel-arrow/pull/4575) |
 | kubernetes-sigs/image-builder | [#2190 · test(azure): cover CI authentication isolation](https://github.com/kubernetes-sigs/image-builder/pull/2190) |
 | JabRef/jabref | [#17441 · Preserve syntax highlighting when copying BibTeX in Source tab (#17392)](https://github.com/JabRef/jabref/pull/17441) |
