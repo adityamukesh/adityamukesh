@@ -4,26 +4,7 @@
 
 </div>
 
-<p align="center"><b>Open-source contributor · Performance, reliability &amp; developer tooling</b></p>
-<p align="center">Merged contributions to <b>Kubernetes</b>, <b>OpenTelemetry</b> and <b>Valkey</b></p>
 <p align="center"><a href="#linux-foundation--cncf-contributions">Featured contributions</a> · <a href="https://github.com/adityamukesh?tab=repositories">Repositories</a> · <a href="https://www.linkedin.com/in/aditya-mukesh-13a804377/">Connect</a></p>
-
-<br/>
-
-<!--- RADAR & FOCUS --->
-<img src="assets/section-initiatives.svg" alt="Radar & Focus" width="830"/>
-
-<br/>
-
-<div align="center">
-<img src="assets/focus-radar.svg" alt="Current Focus & Roadmap" width="830"/>
-</div>
-
-<br/>
-
-<div align="center">
-<img src="assets/divider.svg" alt="" width="830"/>
-</div>
 
 <br/>
 
@@ -59,8 +40,8 @@
 
 | Project | Contribution |
 | :--- | :--- |
+| open-telemetry/opentelemetry-kotlin | [#1354 · fix: guard init-time user code with SdkErrorHandler](https://github.com/open-telemetry/opentelemetry-kotlin/pull/1354) |
 | open-telemetry/otel-arrow | [#4575 · perf(query-engine): skip selection vectors for scalar predicates](https://github.com/open-telemetry/otel-arrow/pull/4575) |
-| open-telemetry/opentelemetry-kotlin | [#1353 · fix: guard init-time user code with SdkErrorHandler](https://github.com/open-telemetry/opentelemetry-kotlin/pull/1353) |
 | kubernetes-sigs/image-builder | [#2190 · test(azure): cover CI authentication isolation](https://github.com/kubernetes-sigs/image-builder/pull/2190) |
 | JabRef/jabref | [#17441 · Preserve syntax highlighting when copying BibTeX in Source tab (#17392)](https://github.com/JabRef/jabref/pull/17441) |
 | valkey-io/valkey | [#5009 · Deflake Backlog cursor stays pinned repl-compression test](https://github.com/valkey-io/valkey/pull/5009) |
@@ -75,8 +56,13 @@
 
 <br/>
 
+<!--- RADAR & FOCUS --->
+<img src="assets/section-initiatives.svg" alt="Radar & Focus" width="830"/>
+
+<br/>
+
 <div align="center">
-<img src="assets/divider.svg" alt="" width="830"/>
+<img src="assets/focus-radar.svg" alt="Current Focus & Roadmap" width="830"/>
 </div>
 
 <br/>
@@ -120,12 +106,6 @@
 
 <br/>
 
-<div align="center">
-<img src="assets/divider.svg" alt="" width="830"/>
-</div>
-
-<br/>
-
 <!--- ENGINEERING & TECH STACK --->
 <img src="assets/section-engineering.svg" alt="Engineering & Tech Stack" width="830"/>
 
@@ -139,12 +119,6 @@
 
 <div align="center">
 <img src="assets/philosophy.svg" alt="Engineering Philosophy & Architecture" width="830"/>
-</div>
-
-<br/>
-
-<div align="center">
-<img src="assets/divider.svg" alt="" width="830"/>
 </div>
 
 <br/>
@@ -172,12 +146,6 @@
 
 <br/>
 
-<div align="center">
-<img src="assets/divider.svg" alt="" width="830"/>
-</div>
-
-<br/>
-
 <!--- CONTRIBUTION & GITHUB ACTIVITY --->
 <img src="assets/section-activity.svg" alt="Contribution Activity" width="830"/>
 
@@ -193,12 +161,6 @@
 
 <div align="center">
 <a href="https://github.com/adityamukesh#contributions"><img src="assets/generated/activity.svg" alt="GitHub contribution calendar: last-year total and streaks, refreshed hourly" width="830"/></a>
-</div>
-
-<br/>
-
-<div align="center">
-<img src="assets/divider.svg" alt="" width="830"/>
 </div>
 
 <br/>

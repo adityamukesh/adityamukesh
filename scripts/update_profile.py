@@ -56,15 +56,16 @@ def card(item):
     texts = '\n'.join(f'<text x="16" y="{57 + i * 20}" font-size="14" fill="#e6edf3">{escape(line)}</text>' for i, line in enumerate(lines))
     merged = item['pull_request']['merged_at'][:10]
     affiliation = escape(foundation(item) or 'Open source')
+    accent = '#67e8f9' if foundation(item) else '#a5b4fc'
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="400" height="144" viewBox="0 0 400 144" role="img">
 <title>{escape(repo)} #{item['number']} — {title}</title>
 <style>text {{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}}</style>
 <defs><linearGradient id="card-bg" x2="1" y2="1"><stop stop-color="#172236"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>
 <rect x=".5" y=".5" width="399" height="143" rx="12" fill="url(#card-bg)" stroke="#30363d"/>
-<path d="M16 1H384" stroke="#a371f7" stroke-opacity=".65"/>
-<text x="16" y="25" font-size="11" fill="#a371f7">{escape(textwrap.shorten(repo, width=43, placeholder='…'))}</text>
+<path d="M16 1H384" stroke="{accent}" stroke-opacity=".8"/>
+<text x="16" y="25" font-size="11" fill="{accent}">{escape(textwrap.shorten(repo, width=43, placeholder='…'))}</text>
 {texts}
-<text x="16" y="96" font-size="10" fill="#58a6ff">{affiliation}</text>
+<text x="16" y="96" font-size="10" fill="{accent}">{affiliation}</text>
 <path d="M16 111H384" stroke="#30363d"/>
 <text x="16" y="130" font-size="11" fill="#d2a8ff">MERGED · #{item['number']}</text>
 <text x="384" y="130" text-anchor="end" font-size="11" fill="#9da7b3">{merged}</text>
