@@ -5,7 +5,7 @@
 <rect x=".5" y=".5" width="199" height="119" rx="14" fill="#101a2b" stroke="#29374f"/>
 <path d="M18 1H182" stroke="#67e8f9" stroke-opacity=".7"/>
 <circle cx="172" cy="25" r="4" fill="#67e8f9" fill-opacity=".6"/>
-<text x="20" y="65" font-size="40" font-weight="700" fill="#67e8f9">19</text>
+<text x="20" y="65" font-size="40" font-weight="700" fill="#67e8f9">20</text>
 <text x="20" y="94" font-size="10" letter-spacing="1" fill="#aab8cc">MERGED PRS</text>
 </g>
 <g transform="translate(210 0)">
@@ -19,14 +19,14 @@
 <rect x=".5" y=".5" width="199" height="119" rx="14" fill="#101a2b" stroke="#29374f"/>
 <path d="M18 1H182" stroke="#fbbf24" stroke-opacity=".7"/>
 <circle cx="172" cy="25" r="4" fill="#fbbf24" fill-opacity=".6"/>
-<text x="20" y="65" font-size="40" font-weight="700" fill="#fbbf24">12</text>
+<text x="20" y="65" font-size="40" font-weight="700" fill="#fbbf24">13</text>
 <text x="20" y="94" font-size="10" letter-spacing="1" fill="#aab8cc">REPOSITORIES</text>
 </g>
 <g transform="translate(630 0)">
 <rect x=".5" y=".5" width="199" height="119" rx="14" fill="#101a2b" stroke="#29374f"/>
 <path d="M18 1H182" stroke="#6ee7b7" stroke-opacity=".7"/>
 <circle cx="172" cy="25" r="4" fill="#6ee7b7" fill-opacity=".6"/>
-<text x="20" y="65" font-size="40" font-weight="700" fill="#6ee7b7">18</text>
+<text x="20" y="65" font-size="40" font-weight="700" fill="#6ee7b7">19</text>
 <text x="20" y="94" font-size="10" letter-spacing="1" fill="#aab8cc">OPEN PRS</text>
 </g>
 </svg>
