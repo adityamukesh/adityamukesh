@@ -18,8 +18,8 @@
 <img src="assets/section-contributions.svg" alt="Open Source Contributions" width="830"/>
 
 <!-- CONTRIBUTIONS:START -->
-<p align="center"><img src="assets/generated/dashboard.svg" width="830" alt="22 merged PRs · 14 repositories · 20 open PRs · 8 Linux Foundation/CNCF merges"/></p>
-<p align="center"><sub>Public contributions to other owners’ repositories · refreshed 2026-11-05 · updates daily</sub></p>
+<p align="center"><img src="assets/generated/dashboard.svg" width="830" alt="23 merged PRs · 15 repositories · 19 open PRs · 8 Linux Foundation/CNCF merges"/></p>
+<p align="center"><sub>Public contributions to other owners’ repositories · refreshed 2026-11-06 · updates daily</sub></p>
 <h3 align="center">Linux Foundation &amp; CNCF contributions</h3>
 <p align="center"><b>8 merged PRs</b> across Kubernetes, OpenTelemetry and Valkey</p>
 <div align="center">
@@ -34,6 +34,7 @@
 
 | Project | Merged contribution |
 | :--- | :--- |
+| JabRef/jabref | [#17441 · Preserve syntax highlighting when copying BibTeX in Source tab (#17392)](https://github.com/JabRef/jabref/pull/17441) |
 | moizycodes/moizy-open-source-issues | [#222 · feat: add API pagination response validator](https://github.com/moizycodes/moizy-open-source-issues/pull/222) |
 | **kubernetes-sigs/kueue** | [#17988 · test: check that kueuectl deletes the standalone Workload](https://github.com/kubernetes-sigs/kueue/pull/17988) |
 | codearena-oss/codearena | [#55 · test: cover public problem page behavior](https://github.com/codearena-oss/codearena/pull/55) |
@@ -66,7 +67,6 @@
 
 | Project | Contribution |
 | :--- | :--- |
-| JabRef/jabref | [#17441 · Preserve syntax highlighting when copying BibTeX in Source tab (#17392)](https://github.com/JabRef/jabref/pull/17441) |
 | Anders0nlima/my-useful-scripts | [#17 · feat(python): add secure password generator script](https://github.com/Anders0nlima/my-useful-scripts/pull/17) |
 | ahammadabdullah/dev-utils | [#27 · docs: add Contributor Covenant code of conduct](https://github.com/ahammadabdullah/dev-utils/pull/27) |
 | open-telemetry/opentelemetry-rust | [#3837 · test(prometheus): confirm TextEncoder writes _sum when sample_sum is unset](https://github.com/open-telemetry/opentelemetry-rust/pull/3837) |
@@ -76,6 +76,7 @@
 | kubernetes-sigs/image-builder | [#2190 · test(azure): cover CI authentication isolation](https://github.com/kubernetes-sigs/image-builder/pull/2190) |
 | SahilKumar75/Sentri | [#162 · docs(repo): add repository architecture map for contributors](https://github.com/SahilKumar75/Sentri/pull/162) |
 | vikas0799/shopsphere | [#455 · feat: add GitHub Actions CI workflow and README badge](https://github.com/vikas0799/shopsphere/pull/455) |
+| vikas0799/shopsphere | [#454 · feat: add persistent dark mode toggle](https://github.com/vikas0799/shopsphere/pull/454) |
 
 </details>
 <!-- CONTRIBUTIONS:END -->
