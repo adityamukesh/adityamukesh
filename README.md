@@ -19,7 +19,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center"><img src="assets/generated/dashboard.svg" width="830" alt="23 merged PRs · 15 repositories · 19 open PRs · 8 Linux Foundation/CNCF merges"/></p>
-<p align="center"><sub>Public contributions to other owners’ repositories · refreshed 2026-11-06 · updates daily</sub></p>
+<p align="center"><sub>Public contributions to other owners’ repositories · refreshed 2026-11-07 · updates daily</sub></p>
 <h3 align="center">Linux Foundation &amp; CNCF contributions</h3>
 <p align="center"><b>8 merged PRs</b> across Kubernetes, OpenTelemetry and Valkey</p>
 <div align="center">
