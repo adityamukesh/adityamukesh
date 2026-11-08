@@ -19,7 +19,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center"><img src="assets/generated/dashboard.svg" width="830" alt="23 merged PRs · 15 repositories · 19 open PRs · 8 Linux Foundation/CNCF merges"/></p>
-<p align="center"><sub>Public contributions to other owners’ repositories · refreshed 2026-11-07 · updates daily</sub></p>
+<p align="center"><sub>Public contributions to other owners’ repositories · refreshed 2026-11-08 · updates daily</sub></p>
 <h3 align="center">Linux Foundation &amp; CNCF contributions</h3>
 <p align="center"><b>8 merged PRs</b> across Kubernetes, OpenTelemetry and Valkey</p>
 <div align="center">
@@ -67,12 +67,12 @@
 
 | Project | Contribution |
 | :--- | :--- |
+| open-telemetry/otel-arrow | [#4575 · perf(query-engine): skip selection vectors for scalar predicates](https://github.com/open-telemetry/otel-arrow/pull/4575) |
 | Anders0nlima/my-useful-scripts | [#17 · feat(python): add secure password generator script](https://github.com/Anders0nlima/my-useful-scripts/pull/17) |
 | ahammadabdullah/dev-utils | [#27 · docs: add Contributor Covenant code of conduct](https://github.com/ahammadabdullah/dev-utils/pull/27) |
 | open-telemetry/opentelemetry-rust | [#3837 · test(prometheus): confirm TextEncoder writes _sum when sample_sum is unset](https://github.com/open-telemetry/opentelemetry-rust/pull/3837) |
 | geojupyter/prototype-ipyd3geo | [#31 · Support GeoJSON layers loaded from a URL](https://github.com/geojupyter/prototype-ipyd3geo/pull/31) |
 | valkey-io/valkey | [#5009 · Deflake Backlog cursor stays pinned repl-compression test](https://github.com/valkey-io/valkey/pull/5009) |
-| open-telemetry/otel-arrow | [#4575 · perf(query-engine): skip selection vectors for scalar predicates](https://github.com/open-telemetry/otel-arrow/pull/4575) |
 | kubernetes-sigs/image-builder | [#2190 · test(azure): cover CI authentication isolation](https://github.com/kubernetes-sigs/image-builder/pull/2190) |
 | SahilKumar75/Sentri | [#162 · docs(repo): add repository architecture map for contributors](https://github.com/SahilKumar75/Sentri/pull/162) |
 | vikas0799/shopsphere | [#455 · feat: add GitHub Actions CI workflow and README badge](https://github.com/vikas0799/shopsphere/pull/455) |
