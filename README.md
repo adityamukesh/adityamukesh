@@ -69,9 +69,9 @@
 
 | Project | Contribution |
 | :--- | :--- |
+| kubernetes/website | [#59274 · Fix broken anchor links in the Using Source IP tutorial](https://github.com/kubernetes/website/pull/59274) |
 | open-telemetry/opentelemetry-swift | [#1318 · feat(api): add setUnit and setDescription to metric instrument builders](https://github.com/open-telemetry/opentelemetry-swift/pull/1318) |
 | kubevirt/ipam-extensions | [#188 · test: drop envtest from VM and VMI controller unit tests](https://github.com/kubevirt/ipam-extensions/pull/188) |
-| kubernetes/website | [#59274 · Fix broken anchor links in the Using Source IP tutorial](https://github.com/kubernetes/website/pull/59274) |
 | kubevirt/user-guide | [#1065 · docs(quickstarts): add guidance on choosing a quickstart and next steps](https://github.com/kubevirt/user-guide/pull/1065) |
 | open-telemetry/otel-arrow | [#4575 · perf(query-engine): skip selection vectors for scalar predicates](https://github.com/open-telemetry/otel-arrow/pull/4575) |
 | open-telemetry/opentelemetry-demo | [#4390 · fix(agent): trace the requests vcrpy sends to the real server](https://github.com/open-telemetry/opentelemetry-demo/pull/4390) |
