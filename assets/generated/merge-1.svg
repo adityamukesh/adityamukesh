@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="182" viewBox="0 0 400 182" role="img">
-<title>open-telemetry/opentelemetry-swift #1320 — test(URLSession): lock shared test state to fix ThreadSanitizer races</title>
+<title>open-telemetry/opentelemetry-swift #1318 — feat(api): add setUnit and setDescription to metric instrument builders</title>
 <style>text {font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}</style>
 <defs>
 <linearGradient id="card-bg" x2="1" y2="1"><stop stop-color="#172236"/><stop offset="1" stop-color="#0c1320"/></linearGradient>
@@ -13,10 +13,10 @@
 <rect x="311" y="14" width="72" height="22" rx="11" fill="#fbbf24" fill-opacity=".09" stroke="#fbbf24" stroke-opacity=".25"/>
 <text x="347" y="28.5" text-anchor="middle" font-size="9" font-weight="600" fill="#fbbf24">MERGED</text>
 <text x="18" y="51" font-size="10" fill="#8fa1b8">open-telemetry/opentelemetry-swift</text>
-<text x="18" y="80" font-size="14" font-weight="500" fill="#edf2fa">test(URLSession): lock shared test state to</text>
-<text x="18" y="100" font-size="14" font-weight="500" fill="#edf2fa">fix ThreadSanitizer races</text>
+<text x="18" y="80" font-size="14" font-weight="500" fill="#edf2fa">feat(api): add setUnit and setDescription to</text>
+<text x="18" y="100" font-size="14" font-weight="500" fill="#edf2fa">metric instrument builders</text>
 <text x="18" y="125" font-size="10" fill="#fbbf24">OpenTelemetry · CNCF</text>
 <path d="M18 141H382" stroke="#29374b"/>
-<text x="18" y="162" font-size="11" font-weight="600" fill="#b9c8df">#1320</text>
+<text x="18" y="162" font-size="11" font-weight="600" fill="#b9c8df">#1318</text>
 <text x="382" y="162" text-anchor="end" font-size="10" fill="#8fa1b8">2026-11-26  ↗</text>
 </svg>

@@ -18,15 +18,15 @@
 <img src="assets/section-contributions.svg" alt="Open Source Contributions" width="830"/>
 
 <!-- CONTRIBUTIONS:START -->
-<p align="center"><img src="assets/generated/dashboard.svg" width="830" alt="25 merged PRs · 17 repositories · 23 open PRs · 9 Linux Foundation/CNCF merges"/></p>
-<p align="center"><sub>Public contributions to other owners’ repositories · refreshed 2026-11-26 · updates daily</sub></p>
+<p align="center"><img src="assets/generated/dashboard.svg" width="830" alt="26 merged PRs · 17 repositories · 27 open PRs · 10 Linux Foundation/CNCF merges"/></p>
+<p align="center"><sub>Public contributions to other owners’ repositories · refreshed 2026-11-27 · updates daily</sub></p>
 <h3 align="center">Linux Foundation &amp; CNCF contributions</h3>
-<p align="center"><b>9 merged PRs</b> across Kubernetes, OpenTelemetry and Valkey</p>
+<p align="center"><b>10 merged PRs</b> across Kubernetes, OpenTelemetry and Valkey</p>
 <div align="center">
-<a href="https://github.com/open-telemetry/opentelemetry-swift/pull/1320"><img src="assets/generated/merge-1.svg" alt="open-telemetry/opentelemetry-swift #1320 — test(URLSession): lock shared test state to fix ThreadSanitizer races" width="400"/></a>
-<a href="https://github.com/kubernetes-sigs/kueue/pull/17988"><img src="assets/generated/merge-2.svg" alt="kubernetes-sigs/kueue #17988 — test: check that kueuectl deletes the standalone Workload" width="400"/></a>
-<a href="https://github.com/kubernetes-sigs/kueue/pull/17970"><img src="assets/generated/merge-3.svg" alt="kubernetes-sigs/kueue #17970 — test: cover kueuectl delete kueueworkload and kueueworkloads aliases" width="400"/></a>
-<a href="https://github.com/open-telemetry/opentelemetry-kotlin/pull/1354"><img src="assets/generated/merge-4.svg" alt="open-telemetry/opentelemetry-kotlin #1354 — fix: guard init-time user code with SdkErrorHandler" width="400"/></a>
+<a href="https://github.com/open-telemetry/opentelemetry-swift/pull/1318"><img src="assets/generated/merge-1.svg" alt="open-telemetry/opentelemetry-swift #1318 — feat(api): add setUnit and setDescription to metric instrument builders" width="400"/></a>
+<a href="https://github.com/open-telemetry/opentelemetry-swift/pull/1320"><img src="assets/generated/merge-2.svg" alt="open-telemetry/opentelemetry-swift #1320 — test(URLSession): lock shared test state to fix ThreadSanitizer races" width="400"/></a>
+<a href="https://github.com/kubernetes-sigs/kueue/pull/17988"><img src="assets/generated/merge-3.svg" alt="kubernetes-sigs/kueue #17988 — test: check that kueuectl deletes the standalone Workload" width="400"/></a>
+<a href="https://github.com/kubernetes-sigs/kueue/pull/17970"><img src="assets/generated/merge-4.svg" alt="kubernetes-sigs/kueue #17970 — test: cover kueuectl delete kueueworkload and kueueworkloads aliases" width="400"/></a>
 </div>
 
 <details>
@@ -34,6 +34,7 @@
 
 | Project | Merged contribution |
 | :--- | :--- |
+| **open-telemetry/opentelemetry-swift** | [#1318 · feat(api): add setUnit and setDescription to metric instrument builders](https://github.com/open-telemetry/opentelemetry-swift/pull/1318) |
 | **open-telemetry/opentelemetry-swift** | [#1320 · test(URLSession): lock shared test state to fix ThreadSanitizer races](https://github.com/open-telemetry/opentelemetry-swift/pull/1320) |
 | Anders0nlima/my-useful-scripts | [#17 · feat(python): add secure password generator script](https://github.com/Anders0nlima/my-useful-scripts/pull/17) |
 | JabRef/jabref | [#17441 · Preserve syntax highlighting when copying BibTeX in Source tab (#17392)](https://github.com/JabRef/jabref/pull/17441) |
@@ -69,16 +70,16 @@
 
 | Project | Contribution |
 | :--- | :--- |
-| kubernetes/website | [#59274 · Fix broken anchor links in the Using Source IP tutorial](https://github.com/kubernetes/website/pull/59274) |
-| open-telemetry/opentelemetry-swift | [#1318 · feat(api): add setUnit and setDescription to metric instrument builders](https://github.com/open-telemetry/opentelemetry-swift/pull/1318) |
-| kubevirt/ipam-extensions | [#188 · test: drop envtest from VM and VMI controller unit tests](https://github.com/kubevirt/ipam-extensions/pull/188) |
-| kubevirt/user-guide | [#1065 · docs(quickstarts): add guidance on choosing a quickstart and next steps](https://github.com/kubevirt/user-guide/pull/1065) |
-| open-telemetry/otel-arrow | [#4575 · perf(query-engine): skip selection vectors for scalar predicates](https://github.com/open-telemetry/otel-arrow/pull/4575) |
+| metal3-io/ironic-image | [#1334 · ✨ Publish multi-arch (amd64/arm64) ironic images](https://github.com/metal3-io/ironic-image/pull/1334) |
+| kyverno/policies | [#1768 · feat(other-mpol): add add-node-affinity MutatingPolicy](https://github.com/kyverno/policies/pull/1768) |
+| open-telemetry/opentelemetry-helm-charts | [#2583 · docs(opentelemetry-ebpf-instrumentation): fix external ConfigMap key in instructions](https://github.com/open-telemetry/opentelemetry-helm-charts/pull/2583) |
+| kubernetes-sigs/cluster-api-provider-vsphere | [#4350 · 🌱 Bump vSphere CSI driver from v3.8.0 to v3.8.1](https://github.com/kubernetes-sigs/cluster-api-provider-vsphere/pull/4350) |
 | open-telemetry/opentelemetry-demo | [#4390 · fix(agent): trace the requests vcrpy sends to the real server](https://github.com/open-telemetry/opentelemetry-demo/pull/4390) |
+| kubernetes-sigs/kubernetes-mixin | [#1340 · Fix the KubeCPUOvercommit and KubeMemoryOvercommit](https://github.com/kubernetes-sigs/kubernetes-mixin/pull/1340) |
 | open-telemetry/opentelemetry-rust | [#3837 · test(prometheus): confirm TextEncoder writes _sum when sample_sum is unset](https://github.com/open-telemetry/opentelemetry-rust/pull/3837) |
-| geojupyter/prototype-ipyd3geo | [#31 · Support GeoJSON layers loaded from a URL](https://github.com/geojupyter/prototype-ipyd3geo/pull/31) |
-| ahammadabdullah/dev-utils | [#27 · docs: add Contributor Covenant code of conduct](https://github.com/ahammadabdullah/dev-utils/pull/27) |
-| valkey-io/valkey | [#5009 · Deflake Backlog cursor stays pinned repl-compression test](https://github.com/valkey-io/valkey/pull/5009) |
+| kubernetes-sigs/image-builder | [#2190 · test(azure): cover CI authentication isolation](https://github.com/kubernetes-sigs/image-builder/pull/2190) |
+| kubevirt/ipam-extensions | [#188 · test: drop envtest from VM and VMI controller unit tests](https://github.com/kubevirt/ipam-extensions/pull/188) |
+| kubernetes/website | [#59274 · Fix broken anchor links in the Using Source IP tutorial](https://github.com/kubernetes/website/pull/59274) |
 
 </details>
 <!-- CONTRIBUTIONS:END -->

@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="182" viewBox="0 0 400 182" role="img">
-<title>open-telemetry/opentelemetry-kotlin #1354 — fix: guard init-time user code with SdkErrorHandler</title>
+<title>kubernetes-sigs/kueue #17970 — test: cover kueuectl delete kueueworkload and kueueworkloads aliases</title>
 <style>text {font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}</style>
 <defs>
 <linearGradient id="card-bg" x2="1" y2="1"><stop stop-color="#172236"/><stop offset="1" stop-color="#0c1320"/></linearGradient>
-<radialGradient id="glow" cx="1" cy="0" r="1"><stop stop-color="#fbbf24" stop-opacity=".09"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow" cx="1" cy="0" r="1"><stop stop-color="#7db4ff" stop-opacity=".09"/><stop offset="1" stop-color="#7db4ff" stop-opacity="0"/></radialGradient>
 </defs>
 <rect x=".5" y=".5" width="399" height="175" rx="14" fill="url(#card-bg)" stroke="#2b3a50"/>
 <rect x="1" y="1" width="398" height="174" rx="14" fill="url(#glow)"/>
-<path d="M18 1H382" stroke="#fbbf24" stroke-opacity=".8"/>
-<circle cx="21" cy="25" r="3" fill="#fbbf24"/>
-<text x="32" y="29" font-size="10" font-weight="700" letter-spacing="1.2" fill="#fbbf24">OPENTELEMETRY</text>
-<rect x="311" y="14" width="72" height="22" rx="11" fill="#fbbf24" fill-opacity=".09" stroke="#fbbf24" stroke-opacity=".25"/>
-<text x="347" y="28.5" text-anchor="middle" font-size="9" font-weight="600" fill="#fbbf24">MERGED</text>
-<text x="18" y="51" font-size="10" fill="#8fa1b8">open-telemetry/opentelemetry-kotlin</text>
-<text x="18" y="80" font-size="14" font-weight="500" fill="#edf2fa">fix: guard init-time user code with</text>
-<text x="18" y="100" font-size="14" font-weight="500" fill="#edf2fa">SdkErrorHandler</text>
-<text x="18" y="125" font-size="10" fill="#fbbf24">OpenTelemetry · CNCF</text>
+<path d="M18 1H382" stroke="#7db4ff" stroke-opacity=".8"/>
+<circle cx="21" cy="25" r="3" fill="#7db4ff"/>
+<text x="32" y="29" font-size="10" font-weight="700" letter-spacing="1.2" fill="#7db4ff">KUBERNETES</text>
+<rect x="311" y="14" width="72" height="22" rx="11" fill="#7db4ff" fill-opacity=".09" stroke="#7db4ff" stroke-opacity=".25"/>
+<text x="347" y="28.5" text-anchor="middle" font-size="9" font-weight="600" fill="#7db4ff">MERGED</text>
+<text x="18" y="51" font-size="10" fill="#8fa1b8">kubernetes-sigs/kueue</text>
+<text x="18" y="80" font-size="14" font-weight="500" fill="#edf2fa">test: cover kueuectl delete kueueworkload</text>
+<text x="18" y="100" font-size="14" font-weight="500" fill="#edf2fa">and kueueworkloads aliases</text>
+<text x="18" y="125" font-size="10" fill="#7db4ff">Kubernetes · CNCF</text>
 <path d="M18 141H382" stroke="#29374b"/>
-<text x="18" y="162" font-size="11" font-weight="600" fill="#b9c8df">#1354</text>
+<text x="18" y="162" font-size="11" font-weight="600" fill="#b9c8df">#17970</text>
 <text x="382" y="162" text-anchor="end" font-size="10" fill="#8fa1b8">2026-10-29  ↗</text>
 </svg>
