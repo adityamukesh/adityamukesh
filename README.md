@@ -18,8 +18,8 @@
 <img src="assets/section-contributions.svg" alt="Open Source Contributions" width="830"/>
 
 <!-- CONTRIBUTIONS:START -->
-<p align="center"><img src="assets/generated/dashboard.svg" width="830" alt="26 merged PRs · 17 repositories · 27 open PRs · 10 Linux Foundation/CNCF merges"/></p>
-<p align="center"><sub>Public contributions to other owners’ repositories · refreshed 2026-11-27 · updates daily</sub></p>
+<p align="center"><img src="assets/generated/dashboard.svg" width="830" alt="26 merged PRs · 17 repositories · 28 open PRs · 10 Linux Foundation/CNCF merges"/></p>
+<p align="center"><sub>Public contributions to other owners’ repositories · refreshed 2026-11-28 · updates daily</sub></p>
 <h3 align="center">Linux Foundation &amp; CNCF contributions</h3>
 <p align="center"><b>10 merged PRs</b> across Kubernetes, OpenTelemetry and Valkey</p>
 <div align="center">
@@ -70,16 +70,16 @@
 
 | Project | Contribution |
 | :--- | :--- |
+| hiero-ledger/hiero-json-rpc-relay | [#6047 · ci: use standard bash syntax in workflows and scripts](https://github.com/hiero-ledger/hiero-json-rpc-relay/pull/6047) |
+| kubernetes-sigs/kubernetes-mixin | [#1340 · Fix the KubeCPUOvercommit and KubeMemoryOvercommit](https://github.com/kubernetes-sigs/kubernetes-mixin/pull/1340) |
 | metal3-io/ironic-image | [#1334 · ✨ Publish multi-arch (amd64/arm64) ironic images](https://github.com/metal3-io/ironic-image/pull/1334) |
 | kyverno/policies | [#1768 · feat(other-mpol): add add-node-affinity MutatingPolicy](https://github.com/kyverno/policies/pull/1768) |
 | open-telemetry/opentelemetry-helm-charts | [#2583 · docs(opentelemetry-ebpf-instrumentation): fix external ConfigMap key in instructions](https://github.com/open-telemetry/opentelemetry-helm-charts/pull/2583) |
 | kubernetes-sigs/cluster-api-provider-vsphere | [#4350 · 🌱 Bump vSphere CSI driver from v3.8.0 to v3.8.1](https://github.com/kubernetes-sigs/cluster-api-provider-vsphere/pull/4350) |
 | open-telemetry/opentelemetry-demo | [#4390 · fix(agent): trace the requests vcrpy sends to the real server](https://github.com/open-telemetry/opentelemetry-demo/pull/4390) |
-| kubernetes-sigs/kubernetes-mixin | [#1340 · Fix the KubeCPUOvercommit and KubeMemoryOvercommit](https://github.com/kubernetes-sigs/kubernetes-mixin/pull/1340) |
 | open-telemetry/opentelemetry-rust | [#3837 · test(prometheus): confirm TextEncoder writes _sum when sample_sum is unset](https://github.com/open-telemetry/opentelemetry-rust/pull/3837) |
 | kubernetes-sigs/image-builder | [#2190 · test(azure): cover CI authentication isolation](https://github.com/kubernetes-sigs/image-builder/pull/2190) |
 | kubevirt/ipam-extensions | [#188 · test: drop envtest from VM and VMI controller unit tests](https://github.com/kubevirt/ipam-extensions/pull/188) |
-| kubernetes/website | [#59274 · Fix broken anchor links in the Using Source IP tutorial](https://github.com/kubernetes/website/pull/59274) |
 
 </details>
 <!-- CONTRIBUTIONS:END -->
